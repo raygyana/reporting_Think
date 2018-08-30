@@ -1,0 +1,219 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab heading="Agency Search" tabTitle="Agency Search" tabId="agencySearch">
+      <div class="boxed">
+
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+
+          <!--<div id="page-title"> 
+		          <h1 class="page-header">Submission Details</h1>
+		        </div>-->
+
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Agency" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <!--               
+		<form class="form-horizontal">
+		 <form class="form-horizontal"  name="form" (ngSubmit)="f.form.valid && onSubmit($event)" #f="ngForm" novalidate> 
+		 -->
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                              <div class="col-8">
+                                <input type="number" placeholder="" id="cust_id" (keydown)="restrictNumeric($event)" name="Customer ID" class="form-control" [(ngModel)]="agencySearchModel.cust_id"
+                                  #cust_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="agency_name">Company Name
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Company Name" placeholder="" id="agency_name" class="form-control" [(ngModel)]="agencySearchModel.agency_name" #agency_name="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">Email Address
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" name="Email Address" placeholder="" id="demo-hor-inputemail" class="form-control" [(ngModel)]="agencySearchModel.email_address"
+                                  #email_address="ngModel">
+                                <div *ngIf="email_address.invalid && (email_address.dirty || email_address.touched)" class="alert custAlert alert-danger">
+                                  Enter valid email id
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">Old Customer ID
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Old Customer Id" placeholder="" id="demo-hor-inputemail" class="form-control" [(ngModel)]="agencySearchModel.old_cust_id" #old_cust_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="region">Region </label>
+                              <div class="col-8">
+                                <!-- <form-select name="region" id="region"  #region
+																[(ngModel)]="agencySearchModel.region" #region="ngModel" 
+																[ddOptions]="ddOptionsReg"
+																(ngModelChange)="getCountryDropDownData($event)"
+																>
+															</form-select> -->
+                                <app-data-drop-down [(ngModel)]=ngregion name="region" id="region" #region [ddOptions]="ddOptionsReg" (onValueChange)="getCountryDropDownData($event)" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">Country</label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]=ngcountry name="country" id="country" #country [ddOptions]="ddOptionsCountry" [ddTrigger]="ddTrigger" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">City
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="City" placeholder="" id="demo-hor-inputemail" class="form-control" [(ngModel)]="agencySearchModel.city" #city="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">Zip
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Zip" placeholder="" id="demo-hor-inputemail" class="form-control" [(ngModel)]="agencySearchModel.zip" #zip="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <div class="col-sm-4">
+                                <span class=" pull-right">
+                                  <label>Show # records: </label>
+                                </span>
+                              </div>
+                              <div class="col-sm-8">
+                                <span class=" text-left">
+                                  <input placeholder="" #limit id="limit" name="limit" [(ngModel)]="agencySearchModel.limit" class="form-control" (keydown)="restrictNumeric($event)"
+                                    min="1" type="number">
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                        <!-- <div class="row">
+												<div class="col-sm-6">
+													<div class="form-group row">
+														<label class="col-4 col-form-label text-right"
+															for="region">Region </label>
+														<div class="col-8">													
+															<app-data-drop-down name="Region1" id="region1" 
+															[(ngModel)]="agencySearchModel.region1" #region1="ngModel" 
+																keyName='region' keyDesc='description'  
+																[serviceURL]="regionDropDownURL"
+																ngDefaultControl>
+															</app-data-drop-down>
+														</div>
+													</div>
+												</div>
+											</div> -->
+                      </div>
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #agencyList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <div class="col-md-12 ">
+            <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+            <div class="info-above-dt">Right click on particular agent row for their Order Sale Summary and History</div>
+            <div class="gridTable">
+              <div class="table-responsive">
+                <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+                </table>
+              </div>
+            </div>
+            <br style="clear: both">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #salesReport>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="col-md-12 ">
+
+            <div class="gridTable">
+              <div class="table-responsive">
+                <table datatable [dtOptions]="dtSalesOptions" [class]="tableClass" #salesReportData>
+                </table>
+              </div>
+            </div>
+            <br style="clear: both">
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>
+
+
+
+
+<ul id="dtTableContexMenu" style="display: none" class="col-md-12 nopadding mar-t20">
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openSalesReport()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-pie-chart"></i> Sales Report
+  </li>
+</ul>

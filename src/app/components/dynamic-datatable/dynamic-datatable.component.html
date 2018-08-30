@@ -1,0 +1,15 @@
+<div id="dynamicTableDivInner">
+  <table id="dynamicDataTable" [class]="tableClass" name="dynamicTable" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th *ngFor="let colName of columnNames; let bhi = index">{{colName.title}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of rowData; let ri=index; let isLastRow=last" (iMReady)="doOnIMReady($event)" ready [ready]="isLastRow">
+        <td *ngFor="let colName of columnNames; let ci = index;">
+          {{data[colName.data]}} </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

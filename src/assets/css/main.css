@@ -1,0 +1,853 @@
+@charset "utf-8";
+.border-btm {
+  border-bottom: 1px solid #e2e6e7
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
+.mar-bot-15 {
+  margin-bottom: 15px;
+}
+
+.mar-t25 {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.mar-t15 {
+  margin-top: 15px;
+}
+
+.mar-t10 {
+  margin-top: 10px;
+}
+
+.mar-t20 {
+  margin-top: 20px;
+}
+
+.pagination {
+  margin: 2px 0;
+}
+
+.mandatory {
+  color: #fa231d;
+  font-size: 13px;
+}
+
+/*responsive start*/
+
+@media only screen and (max-width: 600px) {
+  #custtab .table-responsive .nav.nav-tabs.nav-justified li {
+    display: table-cell;
+    width: 1%;
+    padding: 0px 10px !important;
+  }
+  .btn {
+    margin-bottom: 4px;
+  }
+  .page-header span.pull-right {
+    margin-top: 10px;
+    float: left !important;
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #415263;
+  line-height: 1.6em;
+  /*-moz-osx-font-smoothing: grayscale;*/
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.pageTitle {
+  font-weight: 600;
+  padding: 5px 0px;
+  font-size: 1.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2b425b;
+}
+
+.graphBoxes {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+}
+
+.mrb10 {
+  margin-bottom: 10px;
+}
+
+#ieee .sidebar {
+  background-color: #234254;
+}
+
+#demo .sidebar {
+  background-color: #131313;
+}
+
+.sidebar {
+  padding-top: 0 !important;
+}
+
+/*=============Added by DEV team=============*/
+
+/*=============icon_sprite=============*/
+
+.csv-file-icon,
+.mail-icon,
+.gcsv-file-icon,
+.xml-file-icon,
+.tsv-file-icon,
+.xls-file-icon,
+.zip-file-icon,
+.graph-icon {
+  display: inline-block;
+  background: url('../images/sprite.png') no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.csv-file-icon {
+  background-position: -5px -0px;
+  width: 24px;
+  height: 24px;
+}
+
+.mail-icon {
+  background-position: -31px -0px;
+  width: 24px;
+  height: 24px;
+}
+
+.gcsv-file-icon {
+  background-position: -59px -0px;
+  width: 24px;
+  height: 24px;
+}
+
+.xml-file-icon {
+  background-position: -86px -0px;
+  width: 24px;
+  height: 24px;
+}
+
+.tsv-file-icon {
+  background-position: -5px -28px;
+  width: 24px;
+  height: 24px;
+}
+
+.xls-file-icon {
+  background-position: -32px -28px;
+  width: 24px;
+  height: 24px;
+}
+
+.zip-file-icon {
+  background-position: -62px -28px;
+  width: 24px;
+  height: 24px;
+}
+
+.graph-icon {
+  background-position: -85px -28px;
+  width: 24px;
+  height: 24px;
+}
+
+/*=============icon_sprite=============*/
+
+/deep/ .fa-info-circle:before {
+  content: "\f05a";
+}
+
+/deep/ .dropdown-toggle::after {
+  display: none;
+}
+
+.search-bg {
+  background: #eeeeee;
+  padding: 5px 10px;
+}
+
+.row-border {
+  width: 100% !important;
+  white-space: nowrap;
+}
+
+div .dt-buttons {
+  position: relative;
+  float: right;
+}
+
+.buttons-colvis {
+  float: right !important;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+  background-color: #234254;
+  color: #fff;
+}
+
+/*.dropdown .a{
+    color: #337ab7!important;
+}*/
+
+.profile-wrap a img {
+  /*background-color: #FFF;*/
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.thinkdashboard1TD {
+  line-height: 14px;
+  height: 28px;
+  text-align: center;
+  vertical-align: middle
+}
+
+.panel {
+  background-color: #fff;
+}
+
+a {
+  color: #1f9fb4
+}
+
+/* select.form-control:not([size]):not([multiple]) {
+  height: 33px;
+} */
+
+#tab-custom .nav-tabs {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.glyphicon-remove-circle:before {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: FontAwesome;
+  content: "\f00d";
+}
+
+.dataTables_empty {
+  height: 350px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.removeSearch {
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+.relative {
+  position: relative;
+}
+
+.table td,
+.table th {
+  padding: .45rem;
+}
+
+.dataTables_length {
+  float: left;
+  padding: 6px 0;
+}
+
+.dataTables_filter input {
+  height: 33px;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  top: 5px;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+  top: 5px;
+}
+
+.download_class {
+  margin-right: 0 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f8f9fa
+}
+
+.table-hover tbody tr:hover,
+table.dataTable tbody>tr.selected {
+  background-color: rgb(35, 158, 179);
+}
+
+table.dataTable td.dataTables_empty {
+  background-color: #f8f9fa;
+  color: #415263;
+  text-align: left;
+  padding-left: 270px;
+  padding-top: 170px;
+  height: 170px;
+  font-size: 18px;
+}
+
+.gridTable {
+  margin-top: 0px;
+}
+
+.sales-button {
+  margin-top: -30px;
+  position: absolute;
+}
+
+.nav-tabs .nav-link {
+  background: #00a5e7;
+  background-image: -webkit-linear-gradient(top, #00a5e7, #007ad3);
+  background-image: -moz-linear-gradient(top, #00a5e7, #007ad3);
+  background-image: -ms-linear-gradient(top, #00a5e7, #007ad3);
+  background-image: -o-linear-gradient(top, #00a5e7, #007ad3);
+  background-image: linear-gradient(to bottom, #00a5e7, #007ad3);
+  color: #fff !important;
+  position: relative;
+  padding-right: 25px;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #177ad2;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: #fff;
+  color: #495057 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+}
+
+.nav-tabs li {
+  z-index: 99;
+  margin-bottom: -2px;
+  margin-left: 3px;
+}
+
+.nav-tabs li:first-child {
+  margin-left: 0;
+}
+
+.nav-tabs li:first-child a {
+  padding-right: 1rem;
+}
+
+.tab-close {
+  background-color: #ff0000 !important;
+  color: #fff !important;
+  padding: 8px 4px 9px 4px;
+  border-radius: 0 2px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  /* line-height: 6px; */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.tableFirstBlock td:first-child,
+.tableFirstBlock th:first-child {
+  width: 80% !important;
+}
+
+.tableSecondBlock td:nth-child(2),
+.tableSecondBlock th:nth-child(2) {
+  width: 80% !important;
+}
+
+a.dt-button {
+  background-color: #00b9e6 !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  background-image: linear-gradient(to bottom, #126e88 0%, #00b9e6 100%);
+  border: 1px solid #00b9e6;
+}
+
+a.dt-button:hover,
+a.dt-button:hover:not(.disabled) {
+  color: #FFF !important;
+  background-color: #00b9e6 !important;
+  background-image: linear-gradient(to bottom, #00b9e6 0%, #126e88 100%);
+  border: 1px solid #00b9e6 !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-right: 0.5em;
+}
+
+.dt-button-collection .buttons-csv,
+.dt-button-collection .buttons-excel,
+.dt-button-collection .buttons-pdf,
+.dt-button-collection .buttons-copy,
+.dt-button-collection .buttons-print,
+.dt-button-collection .buttons-columnVisibility {
+  background-image: none !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #d1d4d7 !important;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: #333 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.dt-button-collection .buttons-csv:before {
+  content: '\f1c9';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.dt-button-collection .buttons-excel:before {
+  content: '\f1c3';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.dt-button-collection .buttons-pdf:before {
+  content: '\f1c1';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.dt-button-collection .buttons-copy:before {
+  content: '\f0c5';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.dt-button-collection .buttons-print:before {
+  content: '\f02f';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.dt-button-collection .buttons-columnVisibility {
+  padding-left: 10px;
+}
+
+div.dt-button-collection a.dt-button.active:not(.disabled) {
+  background-color: #00b9e6 !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  background-image: none;
+  border: 1px solid #00b9e6;
+  box-shadow: inset 0px 0px 0px #666;
+}
+
+div.dt-button-collection[role="menu"] {
+  overflow-y: auto;
+  max-height: 420px;
+}
+
+/* .highcharts-tooltip-box {
+  fill: rgba(255, 255, 255, 0.5);
+  stroke: none;
+  color: #FFF;
+  border: #000 2px solid;
+} */
+
+table.Dsales td {
+  text-align: left;
+}
+
+table.Dsales .Dboxhead {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  background: #619228;
+  color: #8bc34b;
+}
+
+table.Dsales .Dboxhead i.fa {
+  font-size: 18px;
+  font-weight: normal;
+  right: 25px;
+  top: 10px;
+  position: absolute;
+  color: #fff;
+}
+
+table.Dsales .Damount {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 1px solid #a3d669;
+}
+
+table.Dsales .Dtext-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #a3d669;
+  color: #629129;
+}
+
+table.Dsales .Dtext-bold td:nth-last-child(3n+1) {
+  text-align: right;
+}
+
+table.Dsales .Dsource {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #a3d669;
+}
+
+table.Dsales tr:nth-last-child(-n+1) td {
+  border-bottom: none !important;
+}
+
+table.Dtrends td {
+  text-align: left;
+}
+
+table.Dtrends .Dboxhead {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  background: #147586;
+  color: #2bbcd3;
+}
+
+table.Dtrends .Dboxhead i.fa {
+  font-size: 18px;
+  font-weight: normal;
+  right: 25px;
+  top: 10px;
+  position: absolute;
+  color: #fff;
+}
+
+table.Dtrends .Damount {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 1px solid #56cde0;
+}
+
+table.Dtrends .Dtext-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #56cde0;
+  color: #147586;
+}
+
+table.Dtrends .Dtext-bold td:nth-last-child(3n+1) {
+  text-align: right;
+}
+
+table.Dtrends .Dsource {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #56cde0;
+}
+
+table.Dtrends tr:nth-last-child(-n+1) td {
+  border-bottom: none !important;
+}
+
+table.Dstats td {
+  text-align: left;
+}
+
+table.Dstats .Dboxhead {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  background: #d28412;
+  color: #fbb753;
+}
+
+table.Dstats .Dboxhead i.fa {
+  font-size: 18px;
+  font-weight: normal;
+  right: 25px;
+  top: 10px;
+  position: absolute;
+  color: #fff;
+}
+
+table.Dstats .Damount {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 1px solid #fdbc5d;
+}
+
+table.Dstats .Dtext-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fdbc5d;
+  color: #b16d0c;
+}
+
+table.Dstats .Dtext-bold td:nth-last-child(3n+1) {
+  text-align: right;
+}
+
+table.Dstats .Dsource {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #fdbc5d;
+}
+
+table.Dstats tr:nth-last-child(-n+1) td {
+  border-bottom: none !important;
+}
+
+.nav-tab {
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  float: left;
+}
+
+.nav-tab ul.nav-tabs {
+  position: absolute;
+  top: -36px;
+  width: 100%;
+}
+
+.nav-tab ul.nav-tabs li:first-child {
+  margin-left: 10px;
+}
+
+.nav-tab ul.nav-tabs>li {
+  width: 44.5%;
+}
+
+.nav-tab ul.nav-tabs li a {
+  padding-left: 0;
+  padding-right: 0 !important;
+  text-align: center;
+  background: none !important;
+  background-image: none !important;
+}
+
+.nav-tab ul.nav-tabs li a:hover {
+  border-color: transparent;
+}
+
+.nav-tab ul.nav-tabs li a.active,
+.nav-tab ul.nav-tabs li a:hover,
+.nav-tab ul.nav-tabs li a:focus {
+  background: #234254 !important;
+  color: #fff;
+  border: none !important;
+}
+
+#tab-custom ul.nav-tabs {
+  margin-left: 0;
+}
+
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable td:last-child,
+table.table-bordered.dataTable td:last-child {
+  border-right-width: 1px !important;
+}
+
+.btn-btnReset {
+  background-color: #0082d7;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.textAlignRight {
+  text-align: right !important;
+}
+
+/* .fa {
+  margin-right: 0px!important;
+} */
+
+.mHeight400 {
+  min-height: 400px;
+}
+
+.mHeight300 {
+  min-height: 300px;
+}
+
+/*  start - for Login page*/
+
+.brand-home-left-bg {
+  min-height: 100vh;
+  padding: 0 55px;
+}
+
+.brand-home-left-bg ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand-home-right-bg {
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 200px 55px 0 55px;
+}
+
+.brand-home-right-bg h3 {
+  color: #3e3e3e;
+  margin-bottom: 30px;
+}
+
+.brand-home-right-bg .input-group-addon {
+  background: none;
+  border: none;
+  padding-left: 0;
+}
+
+.brand-home-right-bg .form-control {
+  background: none;
+  border: 0 none;
+  box-shadow: none;
+}
+
+.brand-home-right-bg .input-group {
+  border-bottom: 1px solid #a4a4a4;
+  margin-bottom: 35px;
+}
+
+.brand-home-right-bg .input-group:nth-child {
+  border-bottom: 1px solid #a4a4a4;
+  margin-bottom: 35px;
+}
+
+.brand-home-right-bg .input-group:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.brand-home-right-bg .fa-1-5x {
+  font-size: 1.5em;
+}
+
+.brand-home-title {
+  font: 300 60px "Open Sans", sans-serif;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.btn-lg {
+  border-radius: 2px;
+  background-color: #234254;
+  border: 0 none;
+  color: #fff;
+  font: 500 14px/22px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  text-align: center;
+  min-height: 36px;
+  min-width: 115px;
+}
+
+.btn-lg:active,
+.btn-lg:hover,
+.btn-lg:focus {
+  background-color: #234254;
+  opacity: 0.9;
+  color: #fff;
+  transition: opacity .5s linear;
+}
+
+.btn-lg {
+  padding: 20px;
+}
+
+/*  End - for Login page*/
+
+.absoluteForm {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  right: 0;
+}
+
+.gridTable table {
+  max-height: 404px;
+}
+
+.containerDiv button.dropdown-toggle {
+  min-height: 27px;
+}
+
+.pointerOnDt tbody td {
+  cursor: pointer;
+}
+
+.datepicker .datepicker-dropdown {
+  z-index: 100;
+}
+
+.nav-tabs li {
+  z-index: 9;
+}

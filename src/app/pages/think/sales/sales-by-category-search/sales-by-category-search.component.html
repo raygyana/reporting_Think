@@ -1,0 +1,103 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs (onTabChange)="doOnTabChange()">
+    <my-tab tabTitle="Sales By Category Search" tabId="salesSummary">
+      <div class="boxed">
+        <div id="content-container">
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Sales By Category" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form (change)="doOnFormChange()" class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group row">
+                            <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order Date Range
+                              <span class="mandatory"> *</span>
+                            </label>
+                            <div class="col-sm-7">
+                              <app-cz-date-picker [dataInput]="salesByCategoryModel"></app-cz-date-picker>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group row">
+                            <label class="col-sm-4 control-label " for="cat">Category
+                              <span class="mandatory"> *</span>
+                            </label>
+                            <div class="col-sm-7">
+                              <app-data-drop-down [(ngModel)]="ngCategory" [isrequired]="true" #category name="category" id="category" [ddOptions]="ddOptionscategory">
+                              </app-data-drop-down>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group row">
+                            <label class="col-sm-4 control-label " for="demo-hor-inputemail">Product Name
+                              <!-- <span class="mandatory"> *</span> -->
+                            </label>
+                            <div class="col-sm-7">
+                              <!-- <select multiple class="form-control select-class" #productName name="Product Name" id="productName" [(ngModel)]="salesByCategoryModel.productName"
+                                #productName="ngModel">
+                                <option [value]="item.ocID" *ngFor="let item of productNameData">{{ item.description }}</option>
+                              </select> -->
+                              <app-data-drop-down [(ngModel)]="ngProductName" #productName name="productName" id="productName" [ddOptions]="ddOptionsproductName">
+                              </app-data-drop-down>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group row">
+                            <div class="col-sm-4">
+                              <span class=" pull-right">
+                                <label>Show # records: </label>
+                              </span>
+                            </div>
+                            <div class="col-sm-7">
+                              <span class=" text-left">
+                                <input placeholder="" #limit id="limit" name="limit" [(ngModel)]="salesByCategoryModel.limit" class="form-control" (keydown)="restrictNumeric($event)"
+                                  min="1" type="number">
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                    <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                      [baseComponent]="mySelf" [validState]="validState"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <!--===================================================-->
+      <!--End page content-->
+    </my-tab>
+  </my-tabs>
+  <ng-template #salesByCategoryList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #salesByCategoryData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

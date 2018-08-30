@@ -1,0 +1,78 @@
+<div [id]="id" class="classForSlimmer" role="tablist" aria-multiselectable="true">
+
+  <!-- <div class="card">
+    <div class="card-header">
+      <h5 class="mb-0">
+        <a name="parentNav" (click)="closeOtherCard()" [routerLink]="['insight-dashboard']" title="Dashboard">
+          <i class="fa fa-fw fa-dashboard"></i> Home</a>
+      </h5>
+    </div>
+  </div> -->
+
+  <div *ngFor="let navData of navigationData" class="card">
+    <div *ngIf="navData.visible" class="card-header" role="tab" [id]="navData.id">
+      <h5 class="mb-0">
+
+
+        <a *ngIf="!navData.routerLink" [class.left-disabled]="navData.disabled" name="parentNav" data-toggle="collapse" [attr.data-parent]="idHash"
+          [href]="navData.childIdHash" aria-expanded="true" aria-controls="processingSubMenu">
+          <i [class]="navData.fafa"></i>
+          {{navData.title}}
+        </a>
+
+        <a *ngIf="navData.routerLink" (click)="closeOtherCard()" (keydown)="navData.disabled &&  diabledKeyborad($event)" [class.left-disabled]="navData.disabled"
+          name="parentNav" data-toggle="collapse" [attr.data-parent]="idHash" [routerLink]="navData.routerLink" aria-expanded="true"
+          aria-controls="processingSubMenu">
+          <i [class]="navData.fafa"></i>
+          {{navData.title}}
+        </a>
+
+
+
+      </h5>
+    </div>
+
+    <div [id]="navData.childId" class="collapse" role="tabpanel" aria-labelledby="headingGlobalSearch">
+      <div class="card-block">
+        <ul *ngFor="let navLink of navData.children">
+          <li *ngIf="navLink.visible">
+
+
+            <a (keydown)="navLink.disabled &&  diabledKeyborad($event)" [class.left-disabled]="navLink.disabled" *ngIf="!navLink.childIdHash && !navLink.href"
+              name="childnav" [routerLink]="navLink.routerLink">
+              <i [class]="navLink.fafa"></i>
+              {{navLink.title}}
+            </a>
+
+
+            <a [class.left-disabled]="navLink.disabled" [href]="navLink.childIdHash" name="childnav" data-toggle="collapse" [attr.data-parent]="navLink.childIdHash"
+              *ngIf="navLink.childIdHash && !navLink.href" aria-controls="processingSubMenu" aria-expanded="false">
+              <i [class]="navLink.fafa"></i>
+              {{navLink.title}}
+            </a>
+
+            <a [class.left-disabled]="navLink.disabled" [href]="navLink.href" target="_black" name="childnav" *ngIf="navLink.href">
+              <i [class]="navLink.fafa"></i>
+              {{navLink.title}}
+            </a>
+
+
+            <ul [id]="navLink.childId" class="collapse" aria-expanded="false">
+              <li *ngFor="let childNav of navLink.children">
+                <a *ngIf="childNav.visible && !navLink.href" [class.left-disabled]="childNav.disabled" (keydown)="navLink.disabled &&  diabledKeyborad($event)"
+                  name="secondChild" [routerLink]="childNav.routerLink">
+                  <i [class]="childNav.fafa"></i>
+                  {{childNav.title}}
+                  <span class="pull-left "></span>
+                </a>
+              </li>
+            </ul>
+
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+</div>

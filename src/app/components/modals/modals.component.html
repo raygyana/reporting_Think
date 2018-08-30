@@ -1,0 +1,27 @@
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button> -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+
+<div class="modal fade" id="{{mmOptions.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" [innerHTML]="mmOptions.captionHeading"></h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="message-text" class="form-control-label" [innerHTML]="mmOptions.bodyMessage"></label>
+            <input *ngIf="mmOptions.showInput" (keydown)="keyDownFunction($event)" type="text" name="Save As" class="form-control" #saveAs id="saveAs" [(ngModel)]="modalModel.saveAs">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" *ngIf="mmOptions.button1" class="btn  btn-dkblue" data-dismiss="modal">{{mmOptions.button1}}</button>
+        <button type="button" class="btn  btn-btnReset" (click)="doOnSubmit()">{{mmOptions.button2}}</button>
+      </div>
+    </div>
+  </div>
+</div>

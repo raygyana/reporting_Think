@@ -1,0 +1,65 @@
+<div class="col-md-12" id="tab-custom">
+  <div id="page-content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel ">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <i class="fa fa-cog" aria-hidden="true"></i>&nbsp; Global Setting</h3>
+          </div>
+          <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid" #f="ngForm" ngNativeValidate>
+            <div class="panel-body">
+
+              <!-- <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group row">
+                    <label class="col-sm-4 control-label " for="demo-hor-inputemail">Client ID
+                    </label>
+                    <div class="col-sm-3">
+                      <select [(ngModel)]="initialClient" (change)="onReset()" name="clientID" class="form-control select-class">
+                        <option *ngFor="let clientdt of clientData" value={{clientdt.id}}>
+                          {{clientdt.value}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group row">
+                    <label class="col-sm-4 control-label " for="demo-hor-inputemail"># of Records to be Displayed
+                      <!-- <span class="mandatory"> </span> -->
+                    </label>
+                    <div class="col-sm-3">
+                      <input placeholder="" id="limit" name="limit" (keydown)="restrictNumeric($event)" min="1" class="form-control" #limit [(ngModel)]="sessionObject_l.limit">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group row">
+                    <label class="col-sm-4 control-label ">
+                      &nbsp;
+                    </label>
+                    <div class="col-sm-3">
+                      <div class="text-right mb-2">
+                        <button class="btn btn-dkblue" type="submit" (click)="onSubmitClick()">
+                          <i class="fa fa-save"></i> Save Setting
+                        </button>
+                      </div>
+                      <div [@rotateX] class="messageClass text-right mb-2" *ngIf="msg">{{msgDisplay}}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

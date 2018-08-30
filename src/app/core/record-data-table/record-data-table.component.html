@@ -1,0 +1,42 @@
+<!-- <div class="table-responsive">
+<div class="gridTable">
+    <data-table id="data-record-grid"
+        headerTitle="Results"
+        [items]="records"
+        [itemCount]="recorDataCount"
+        (reload)="reloadDataRecord($event)"
+
+        [limit]="5"
+        [sortBy]="'rating'"
+        [sortAsc]="false"
+
+        [selectColumn]="true"
+        [multiSelect]="false"
+        [substituteRows]="false"
+        [expandableRows]="false"
+        [translations]="translations"
+        [indexColumnHeader]="'#'"
+        [selectOnRowClick]="true"
+        >
+        <ng-template #dataTableExpand let-item="item">
+            <div [textContent]="item.description" style="padding: 5px; color: gray"></div>
+        </ng-template>
+        
+    <div class="table-responsive">
+<div class="gridTable">
+        <data-table-column *ngFor= "let recordHeader of recordDataTableHeaders"
+            [property]="recordHeader"
+            [header]="recordHeader"
+            [sortable]="true">
+        </data-table-column>
+        </div>
+        </div>
+    </data-table>
+     <div style="margin-top: 10px">
+        <b>Selected:</b>
+        <span *ngIf="recordDataTable.selectedRow == null"><i>No item selected</i></span>
+        <span [textContent]="recordDataTable.selectedRow && recordDataTable.selectedRow.item[1]"></span>
+    </div> 
+</div>
+</div>
+ -->

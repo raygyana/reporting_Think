@@ -1,0 +1,41 @@
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-toggle="modal" (click)="onClick()">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" [id]="basicSetting.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+  <div class="modal-dialog" [class.modal-lg]="basicSetting.large" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{basicSetting?.title}}</h5>
+        <button *ngIf="basicSetting.upperCross" type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- {{template == undefined}} -->
+
+        <ng-container *ngTemplateOutlet="template">
+
+        </ng-container>
+
+      </div>
+      <div class="modal-footer">
+        <ng-container *ngIf="!basicSetting.noButtons">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">{{basicSetting?.button1}}</button>
+          <button type="button" (click)="onButton2Clicked()" class="btn btn-primary">{{basicSetting?.button2}}</button>
+        </ng-container>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <ng-template #tempTemplate>
+  abc
+</ng-template> -->

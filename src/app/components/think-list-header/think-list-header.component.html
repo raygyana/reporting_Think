@@ -1,0 +1,15 @@
+<div class="panel-heading">
+
+  <span class=" pull-right mar-t25" *ngIf="!tabsComponent">
+    <a [routerLink]="[searchUrl]">
+      <i class="fa fa-pencil-square-o"></i> Modify Search Criteria </a>
+  </span>
+  <span class=" pull-right mar-t25" *ngIf="tabsComponent">
+    <a href="javascript:void(0);" (click)="goToSearch()">
+      <i class="fa fa-pencil-square-o"></i> Modify Search Criteria </a>
+  </span>
+
+  <h3 class="panel-title">
+    <i class="fa {{headerName.icon}}"></i>&nbsp; {{headerName.title}}
+  </h3>
+</div>

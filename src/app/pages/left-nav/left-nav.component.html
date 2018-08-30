@@ -1,0 +1,60 @@
+<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar" id='navId'>
+  <div class="mainnav-profile" id="testDiv">
+    <div class="profile-wrap">
+      <div class="pad-btm text-center dropdown">
+        <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img [src]="leftNavLogo" class="img-fluid" alt="logo">
+        </a>
+
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" (click)="doOnClientChange(clientCode)" *ngFor="let clientCode of arrayWebmartCode">{{clientCode | uppercase}}
+          </a>
+        </div>
+      </div>
+      <p class="mnp-name text-center ">{{userName}}</p>
+      <div class="text-center mar-t10 mar-bot-15">
+        <span class="user-icon">
+
+          <!-- <a *ngIf="this.myClientServices.clientDetails?.project === 'think'" title="User Profile"> -->
+          <a href="javascript:" (click)="onClickUserProfile()" title="User Profile">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span *ngIf="this.myClientServices.clientDetails?.project === 'think'" class="user-icon">
+          <a [routerLink]="['think/settings']" title="Settings">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span class="user-icon">
+          <a href="javascript:void(0);" data-toggle="modal" (click)="doOnLogoutClick()" title="Logout" data-target="#checkLogout" data-whatever="@mdo">
+            <i class="fa fa-sign-in" aria-hidden="true"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="this.myClientServices.clientDetails?.project === 'insight'">
+    <app-left-menu-bar [navigationData]="navigationDataInsight"></app-left-menu-bar>
+  </div>
+
+  <div *ngIf="this.myClientServices.clientDetails?.project === 'think'">
+    <my-tabs class='nav-tab' #staticTabs [selectTabName]="selectTabName">
+      <my-tab tabTitle="INSIGHT" [disabled]="!sessionObject.insightAllowed" tabId="INSIGHTTAB">
+        <app-left-menu-bar [navigationData]="navigationDataInsight"></app-left-menu-bar>
+      </my-tab>
+
+      <my-tab tabTitle="THINK" [disabled]="!sessionObject.thinkAllowed" tabId="THINKTAB">
+        <app-left-menu-bar [navigationData]="navigationDataThink"></app-left-menu-bar>
+      </my-tab>
+    </my-tabs>
+  </div>
+
+  <app-left-menu-bar [navigationData]="navigationDataThink"></app-left-menu-bar>
+</nav>
+
+
+<app-modals (onModalSubmit)="doOnLogout($event)" [mmOptions]="mmOptionsLogout">
+</app-modals>
+<app-modals [mmOptions]="mmOptionsDisabled"></app-modals>

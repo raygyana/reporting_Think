@@ -1,0 +1,32 @@
+.gridInsightTable {
+  width: 100%;
+  float: left;
+  /* margin-top: 20px; */
+}
+
+.gridInsightTable table {
+  width: 100%;
+  overflow: auto;
+  /* display: block; */
+  height: 404px;
+}
+
+.gridInsightTable thead tr th {
+  background-color: #234254;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.gridInsightTable thead tr td {
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.gridInsightTable table tbody tr td {
+  white-space: nowrap;
+}

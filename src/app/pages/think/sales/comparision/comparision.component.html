@@ -1,0 +1,117 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Comparison Search" tabId="comparision">
+      <!--Page content start-->
+      <!--===================================================-->
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header [showInfoPopUp]="showInfoPopUp" headerCaption="Comparison" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Base Month
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-data-drop-down [(ngModel)]="ngmonthData" #prevMonth name="prevMonth" id="prevMonth" [ddOptions]="ddOptionsBaseMonth" [ddTrigger]="ddTriggerBaseMonth" [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Year
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-data-drop-down [(ngModel)]="ngyearData" #prevYear name="prevYear" id="prevYear" [ddOptions]="ddOptionsBaseYear" [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Compare With Month
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-data-drop-down [(ngModel)]="ngcuurentmon" #currMonth name="currMonth" id="currMonth" [ddOptions]="ddOptionsCompareMonth" [ddTrigger]="ddTriggerCompareMonth"
+                            [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Compare With Year
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-data-drop-down [(ngModel)]="ngcuurentyear" #currYear name="currYear" id="currYear" [ddOptions]="ddOptionsCompareYear" [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="Product Type">Product Name
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-8">
+                          <app-data-drop-down [(ngModel)]="ngNNumbers" [isrequired]="true" #ocID name="ocID By" id="ocID" [ddOptions]="ddProductName" [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="product_cat">Report By
+                          <!-- <span class="mandatory"> *</span> -->
+                        </label>
+                        <div class="col-sm-8">
+                          <app-data-drop-down [(ngModel)]="ngreportData" #reportBy name="reportBy By" id="reportBy" [ddOptions]="ddOptionsReport" [ddTrigger]="ddTriggerReport">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <app-think-search-footer [showLimit]="false" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()" [baseComponent]="mySelf"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #comparisonList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <div *ngIf="RenderDynamicDatatable" id="dynamicTableDiv">
+
+                <app-dynamic-datatable [ddOptions]="dtOptions" [tableColumns]="TC" [tableData]="listData"></app-dynamic-datatable>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

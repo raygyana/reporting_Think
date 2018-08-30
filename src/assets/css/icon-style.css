@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?zby9fr');
+  src:  url('fonts/icomoon.eot?zby9fr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?zby9fr') format('truetype'),
+    url('fonts/icomoon.woff?zby9fr') format('woff'),
+    url('fonts/icomoon.svg?zby9fr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gcsv:before {
+  content: "\e900";
+}
+.icon-tsv:before {
+  content: "\e901";
+}
+.icon-document:before {
+  content: "\e902";
+}
+.icon-mail-envelope-open:before {
+  content: "\e903";
+}
+.icon-document-diagrams:before {
+  content: "\e904";
+}
+.icon-document-file-xls:before {
+  content: "\e905";
+}
+.icon-document-file-xml:before {
+  content: "\e906";
+}
+.icon-document-file-zip:before {
+  content: "\e907";
+}

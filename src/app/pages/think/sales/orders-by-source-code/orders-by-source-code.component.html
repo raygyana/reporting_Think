@@ -1,0 +1,106 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs (onTabChange)="doOnTabChange()">
+    <my-tab tabTitle="Orders By Source Code Search" tabId="ordersBySourceCode">
+
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Orders By Source Code" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <div class="panel-body">
+                    <form (change)="doOnFormChange()" class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order From Date
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-sm-8">
+                                <app-cz-date-picker [dataInput]="ordersBySourceCodeModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Source Code
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-sm-8">
+                                <!-- <select class="form-control select-class" name="Source Code" id="sourceCode" multiple [(ngModel)]="ordersBySourceCodeModel.sourceCode" #sourceCode="ngModel">
+                                  <option [value]="sourceCode.ocId" *ngFor="let sourceCode of sourceCodeData">{{sourceCode.description}}</option>
+                                </select> -->
+                                <app-data-drop-down [(ngModel)]="ngSourcecode" name="Source" id="Source" #Source [ddOptions]="ddOptionsSourceCode" [isrequired]="true">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Product Name
+                                <!-- <span class="mandatory"> *</span> -->
+                              </label>
+                              <div class="col-sm-8">
+                                <!-- <select class="form-control select-class" name="product" id="product" multiple [(ngModel)]="ordersBySourceCodeModel.product" #product="ngModel">
+                                  <option [value]="product.ocID" *ngFor="let product of productData">{{product.description}}</option>
+                                </select> -->
+                                <app-data-drop-down [(ngModel)]="ngNNumbers" name="product" id="product" #product [ddOptions]="ddOptionsProduct">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail"> Order Type
+                                <!-- <span class="mandatory"> *</span> -->
+                              </label>
+                              <div class="col-sm-8">
+                                <app-data-drop-down [(ngModel)]="ngOrdertype" name="Order" id="Order" #Order [ddOptions]="ddOptionsOrderType" [isDisabled]="isOrderTypDisable"
+                                  [ddTrigger]="ddTriggerReport">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                        [baseComponent]="mySelf" [validState]="validState"></app-think-search-footer>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </my-tab>
+  </my-tabs>
+  <ng-template #ordersBySourceCodeDetails>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #ordersBySourceCodeData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,46 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true" loaderSize="15px"></app-angular-loader>
+<div class="panel panel-primary panel-stat">
+  <div class="panel-heading mr-0 ml-0">
+    <div class="stat">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./assets/images/institution.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <small class="stat-label">Total</small>
+          <h1 *ngIf="totalValue"> {{numberFormatWithoutK(totalValue)}}</h1>
+          <small _ngcontent-c6="" class="stat-label"> &nbsp; </small>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="mb15"></div>
+
+      <div class="row" *ngFor="let contentData1 of records">
+        <div class="col-md-6">
+          <small class="stat-label">{{contentData1.accountType}}</small>
+        </div>
+        <div class="col-md-6">
+          <small class="stat-label text-right">{{numberFormatWithoutK(contentData1.value) }}</small>
+
+        </div>
+
+      </div>
+      <!-- row -->
+      <!-- <div class="row">
+								<div class="col-md-6">
+									<small class="stat-label">Groups</small>
+	                    		</div>
+								<div class="col-md-6">
+								 <small class="stat-label text-right">122</small>
+								</div>
+                  		</div> -->
+      <!-- row -->
+
+
+
+    </div>
+    <!-- stat -->
+  </div>
+  <!-- panel-heading -->
+</div>
+<!-- panel -->

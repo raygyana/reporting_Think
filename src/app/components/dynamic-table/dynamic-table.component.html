@@ -1,0 +1,21 @@
+<div id="dynamicTableDivInner">
+  <table id="dynamicTable" [class]=" myHeaderClass + ' table row-border table-hover table-striped table-bordered display' " name="dynamicTable" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th *ngFor="let head of topHeaderArr; let thi = index" [class]="getTopHeaderClass(thi)" [colSpan]="head.spanSize">{{head.display}}</th>
+      </tr>
+      <tr>
+        <!-- <th [colSpan]="topHeaderArr[0].spanSize">{{topHeaderArr[0].display}}</th> -->
+        <th *ngFor="let colName of columnNames; let bhi = index" [class]="getBottomHeaderClass(bhi)">{{colName.display}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of rowData; let ri=index">
+        <!-- <th [colSpan]="1">{{data['SubCatg']}}</th>
+    <th> {{data['country']}} </th> -->
+        <td *ngFor="let colName of columnNames; let ci = index; let isLastRow=last" [class]="getColumnClass(ci, ri)">
+          {{data[colName.propertyName]}} </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

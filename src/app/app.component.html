@@ -1,0 +1,7 @@
+<app-angular-loader name="AppLoader"></app-angular-loader>
+<div (click)="onCLickPage()">
+
+  <router-outlet></router-outlet>
+
+</div>
+<app-modals (onModalSubmit)="doOnModalSubmit($event)" [mmOptions]="AppMMOtions"></app-modals>

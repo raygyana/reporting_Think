@@ -1,0 +1,16 @@
+<div class="container-fluid p-0">
+  <div class="row justify-content-md-center"> </div>
+  <div class="row mb-2">
+    <div class="col-md-auto">
+      <h5 class="pt-1">
+        <!-- <i class="fa fa-search "></i>-->Search Criteria
+      </h5>
+    </div>
+    <div *ngFor="let search of displayData" class="col-md-auto p-0">
+      <div *ngIf="showOnlyStartDate(search)" class="alert tags">
+        <a *ngIf="showCrossBox(search)" href="javascript:;" (click)="doOnSearchClick(search)" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        {{search.desc}}
+      </div>
+    </div>
+  </div>
+</div>

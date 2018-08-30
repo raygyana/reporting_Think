@@ -1,0 +1,59 @@
+<div class="panel-heading">
+  <div class="">
+    <ul class=" list-unstyled pull-right mar-t15 bord-all">
+      <li id="dropdown-user" class="dropdown" style="margin: 0; padding: 0; border-bottom: 0;">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle text-right" aria-expanded="true" style="display: block">
+
+          <div class="username hidden-xs">
+            <i class="fa fa-floppy-o"></i> List of Saved Searches &nbsp;
+            <i class="fa fa-sort-desc ss-caret" aria-hidden="true"></i>
+          </div>
+        </a>
+        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right panel-default arrow_box">
+
+          <div class="save-search">
+            <ul>
+              <li>
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Search" #txt (keyup)="filterMySearch(txt.value)">
+
+                </div>
+
+              </li>
+            </ul>
+            <ul *ngIf="savedSearchList.length>0">
+              <li>
+                <i class="fa fa-close"></i>
+                <a (click)="doOnRemoveAll(); " class="d-inline-block" data-toggle="modal " data-target="#searchHeader " data-whatever="@mdo ">
+                  <i class="demo-pli-unlock "></i> Remove all
+                </a>
+              </li>
+
+              <li *ngFor="let item of savedSearchList " class="relative ">
+                <a (click)="performSearch(item); " class="d-block ">{{item.searchLabel}}</a>
+                <span (click)="doOnDelete(item); " class="fa fa-times-circle-o pull-right removeSearch " data-toggle="modal " data-target="#searchHeader " data-whatever="@mdo "></span>
+                <!-- <span (click)="doOnDelete(item); "><span class="fa fa-times-circle-o "></span></span> -->
+                <!-- {{item.searchLabel}} -->
+              </li>
+            </ul>
+            <ul *ngIf="savedSearchList.length===0 ">
+              <li>No Save List</li>
+            </ul>
+
+          </div>
+
+        </div>
+      </li>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </ul>
+  </div>
+  <h3 class="panel-title ">
+    <i class="fa fa-search "></i>&nbsp; {{headerCaption}}
+    <i *ngIf="showInfoPopUp" class="fa fa-info-circle" (click)="onClickInfo()"></i>
+  </h3>
+</div>
+<app-modals (onModalSubmit)="doOnDeleteSearch($event) " [mmOptions]="mmOptionsRemoveSearch ">
+  <app-modals>

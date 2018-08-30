@@ -1,0 +1,78 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Agencies Customer Sales Search" tabId="agenciesCustomerSalesSearch">
+
+      <div class="boxed">
+        <div id="content-container">
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Agencies Customer Sales" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <div class="panel-body">
+
+                    <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order Date Range
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-sm-8">
+                                <app-cz-date-picker [dataInput]="agenciesCustomerSearchModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Product Name</label>
+                              <div class="col-sm-8">
+
+
+                                <app-data-drop-down [(ngModel)]="ngNNumbers" #journalId name="journalId" id="journalId" [ddOptions]="ddOptionsproductName">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                        [baseComponent]="mySelf"></app-think-search-footer>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #agenciesCustomerSalesList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #agenciesCustomerSalesData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

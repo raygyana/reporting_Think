@@ -1,0 +1,364 @@
+/* FOr Mit CLient
+*/
+
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Login Start*/
+
+body {
+  color: #333;
+  background-color: #fcf6f3c7;
+}
+
+.brand-home-left-bg {
+  background-color: #C8541A !important;
+}
+
+.btn-lg:active,
+.btn-lg:focus,
+.btn-lg:hover,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.flat-btn:active,
+.flat-btn:focus,
+.flat-btn:hover {
+  background-color: #424242 !important;
+  color: #fff !important;
+  border-color: #424242;
+}
+
+
+/* Login End*/
+
+.sidebar {
+  background-color: #C8541A !important;
+}
+
+.nav-tab ul.nav-tabs li a.active,
+.nav-tab ul.nav-tabs li a:focus,
+.nav-tab ul.nav-tabs li a:hover {
+  background: #212121!important;
+  color: #fff !important;
+}
+
+.mainnav-profile .mnp-name {
+  color: #f2f2f2 !important;
+}
+
+.user-icon a {
+  color: #f2f2f2 !important;
+}
+
+.user-icon a:hover {
+  color: #757575;
+}
+
+.card .card-header h5 a {
+  color: #f2f2f2 !important;
+}
+
+.card .card-header {
+  border-bottom: 1px solid #af4d1e !important;
+}
+
+.card-block {
+  background-color: #fff !important;
+}
+
+.card-block ul li a {
+  color: #352822 !important;
+  border-bottom: 1px solid #f1e3dd !important;
+}
+
+.btn-dkblue {
+  background-color: #c8541a !important;
+  color: #fff !important;
+}
+
+.btn-dkblue:hover {
+  color: #f8f8f8 !important;
+  background-color: #d6794f !important;
+  border-color: #d6794e;
+}
+
+#navId a.active1 {
+  color: #88330a!important;
+}
+
+.btn,
+.btn-lg,
+.flat-btn {
+  border-radius: 2px;
+  /* background-color: #234254;*/
+  /* border: 0 none; */
+}
+
+
+/*4 dec css */
+
+
+/****************dt-bold hover 2017,22Dec *****************/
+
+.dt-bold {
+  color: #0082d7 !important;
+}
+
+.table-hover tbody tr:hover,
+table.dataTable tbody>tr.selected,
+.table-hover tbody tr:hover .dt-bold,
+table.dataTable tbody>tr.selected .dt-bold {
+  background-color: #fcf6f3;
+  color: #c8521b !important;
+}
+
+
+/****************dt-bold hover *****************/
+
+table.dataTable thead td,
+table.dataTable thead th {
+  background-color: #616161;
+  color: #fff;
+}
+
+.page-item.active .page-link {
+  background-color: #c8531b;
+  border-color: #c8531b;
+}
+
+.page-link,
+.page-link:visited {
+  color: #424242;
+}
+
+a.dt-button {
+  background-color: #00a9a7!important;
+  background-image: linear-gradient(180deg, #01a9a7, #00a9a7);
+  border: 1px solid #00a9a7;
+}
+
+a {
+  color: #2b415b;
+}
+
+a.dt-button:hover,
+a.dt-button:hover:not(.disabled) {
+  color: #fff!important;
+  background-color: #22bdbb!important;
+  background-image: linear-gradient(180deg, #22bdbb, #22bdbb);
+  border: 1px solid #22bdbb!important;
+}
+
+.nav-tab ul.nav-tabs li a.active,
+.nav-tab ul.nav-tabs li a:focus,
+.nav-tab ul.nav-tabs li a:hover {
+  background: #772e0b!important;
+  color: #fff!important;
+  bottom: -2px;
+}
+
+.nav-tab ul.nav-tabs li a {
+  background: #f7c7ab45!important;
+  border: none!important;
+  bottom: -2px;
+  color: #fff!important;
+}
+
+.nav-tab ul.nav-tabs {
+  top: -38px;
+}
+
+.nav-tabs li {
+  margin-bottom: -1px;
+}
+
+.save-search ul li i {
+  padding-left: 8px;
+}
+
+div.dt-button-collection {
+  width: 165px;
+}
+
+div.dt-button-collection a {
+  white-space: normal;
+}
+
+.arrow_box:before {
+  border-bottom-color: #c4bcbc;
+}
+
+.ss-caret {
+  vertical-align: top;
+  padding-top: 7px;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  display: inline-block;
+  float: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+  margin-top: 12px;
+}
+
+.card .card-header h5 .left-disabled {
+  color: #737373!important;
+}
+
+.card-block ul li .left-disabled {
+  color: #737373!important;
+}
+
+
+/* Start of  Comparison table*/
+
+
+/*Start fixed for 1st 3 col*/
+
+.colSpan3 thead tr:nth-child(1) th:nth-child(1) {
+  visibility: hidden;
+  border: none
+}
+
+.colSpan3 tbody tr td:nth-child(3) {
+  border-right: 1px solid #c3c7ca;
+}
+
+
+/*END fixed for 1st 3 col*/
+
+
+/*common classes for comparison*/
+
+.comparisonCellRightBorder {
+  border-right: 1px solid #c3c7ca !important;
+}
+
+.comparisonCellBottomBorder {
+  border-bottom: 1px solid #c3c7ca !important;
+}
+
+.headBorderColor {
+  border-color: #c3c7ca !important;
+}
+
+.otherComparisonTH {
+  border-color: #c3c7ca!important;
+  background-color: #505050!important;
+  border: 0;
+}
+
+.otherComparisonBG {
+  border-top: 2px solid #0082d7!important;
+  border-bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center!important;
+  border-left: 1px solid #c3c7ca!important;
+  background-color: #006fb7;
+}
+
+.firstColSpanTopHead {
+  border-top: 2px solid #c3c7ca!important;
+  border-bottom: 0px !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center!important;
+  border-left: 1px solid #c3c7ca!important;
+}
+
+
+/* End of  Comparison table*/
+
+#navId h5>a.active1 {
+  background: #8a330a;
+  color: #fff!important;
+}
+
+.btn-ltblue {
+  background-color: #01a9a7!important;
+}
+
+.nav-tabs .nav-link {
+  background: #c8531b;
+  background-image: linear-gradient(180deg, #c8531b, #c8531b);
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #01a9a7;
+}
+
+div.dt-button-collection a.dt-button.active:not(.disabled) {
+  background-color: #00a9a7!important;
+  box-shadow: none!important;
+  color: #fff!important;
+  border-radius: 3px!important;
+  background-image: none;
+  border: 1px solid #d1d4d7!important;
+}
+
+#content-container {
+  background-color: #fcf7f5;
+}
+
+.save-search ul li.active,
+.save-search ul li:hover {
+  background-color: #01a9a7;
+  border: 1px solid #c3c7ca;
+}
+
+.btn-btnReset {
+  background-color: #424242;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#dynamicTable_wrapper .fa {
+  margin-right: 0px;
+}
+
+.form-control:focus {
+  border-color: #c3c7ca;
+}
+
+.dropdown-menu:not(.head-list)>li>a:hover {
+  background-color: #868e96;
+  color: #fff;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  color: #fff;
+  background-color: #01a9a7;
+}
+
+.btn-ltblue:hover {
+  color: #f8f8f8;
+  background-color: #22bdbb !important;
+  border-color: #22bdbb;
+}
+
+.btn-btnReset:hover {
+  background-color: #737070!important;
+  border-color: #737070;
+}
+
+.nav-tabs .nav-link.disabled {
+  background: #f7c7ab45!important;
+}
+
+.nav-tabs .nav-link.disabled:hover {
+  background: #f7c7ab45!important;
+}
+
+.btn.disabled,
+.btn:disabled,
+.btn.disabled:hover {
+  opacity: 0.90;
+  background-color: #ccc !important;
+  cursor: not-allowed;
+  border: none
+}

@@ -1,0 +1,21 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+
+<div style="min-height: 135px;" class="panel panel-info panel-colorful">
+  <table width="100%" cellspacing="10" cellpadding="10" class="dtbox-info Dtrends">
+    <tr class="text-bold">
+      <td class="thinkdashboard1TD Dboxhead" colspan="3">
+        <i (click)="onLinkClicked()" class="fa fa-download curPointer" title="Download Trends"></i>
+        <span class="fa fa-line-chart"></span> Trend (90 Days)</td>
+    </tr>
+    <tr class="Dtext-bold">
+      <td class="thinkdashboard1TD panel-info">Type</td>
+      <td class="thinkdashboard1TD panel-info">Count</td>
+      <td class="thinkdashboard1TD panel-info">Amount($)</td>
+    </tr>
+    <tr *ngFor="let item of trendData">
+      <td height="28" class="Dsource panel-info" valign="middle">{{item.category}}</td>
+      <td class="Damount panel-info" valign="middle">{{numberFormat(item.count)}}</td>
+      <td class="Damount panel-info" valign="middle">{{numberFormat(item.amount)}}</td>
+    </tr>
+  </table>
+</div>

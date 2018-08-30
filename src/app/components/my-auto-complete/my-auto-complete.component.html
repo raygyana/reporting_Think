@@ -1,0 +1,22 @@
+<h3> Search color</h3>
+
+
+
+<ng2-completer [(ngModel)]="searchStr" [placeholder]="mySetting.placeholder" [datasource]="dataService" [minSearchLength]="mySetting.minSearchLength" [selectOnClick]="true"
+  [openOnClick]="true" [disableInput]="mySetting.disableInput" (selected)="onSelected($event)" (ngModelChange)="onNgModelChange($event)" (keyup)="onKeyup()" (dataSourceChange)="onDataSourceChange($event)"
+  #ng2Completer>
+</ng2-completer>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<span *ngIf="loaderActive">
+  <i style="font-size: 20px;" class="fa fa-spinner fa-pulse" id="loading-indicator"></i>
+</span>
+
+
+<br>
+<br>
+<br> dATA{{searchStr}} {{mySetting.placeholder}}

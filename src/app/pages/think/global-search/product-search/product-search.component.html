@@ -1,0 +1,312 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab heading="Product Search" tabTitle="Product Search" tabId="prodSeach">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Product" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <!-- <form class="form-horizontal">
+                         <form class="form-horizontal"  name="form" (ngSubmit)="f.form.valid && onSubmit($event)" #f="ngForm" novalidate> 
+                         -->
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="product_code">Product Code </label>
+                              <div class="col-8">
+                                <app-data-drop-down name="Product Code" id="product_code" multiple #product_code [ddOptions]="ddOptionsProdCode" [(ngModel)]="ngProductCode" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <!-- <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="title">Title
+                              </label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="title" name="Title" class="form-control" [(ngModel)]="productSearchModel.title" #title="ngModel">
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="volume">Volume
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="volume" name="Volume" class="form-control" [(ngModel)]="productSearchModel.volume" #volume="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="issue">Issue
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="issue" name="Issue" class="form-control" [(ngModel)]="productSearchModel.issue" #issue="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="productType">Product Type
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down name="productType" id="productType" #productType [ddOptions]="ddOptionsProdType" [(ngModel)]="ngProductTyp" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div *ngIf="isProductCatgVisible" class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="productCat">Product Category
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down name="productCat" id="productCat" #productCat [ddOptions]="ddOptionsProdCat" [(ngModel)]="ngProductCat" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="issn">Issn No
+                              </label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="issn" name="issn" class="form-control" [(ngModel)]="productSearchModel.issn" #issn="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+
+
+                            </div>
+                          </div>
+                        </div> -->
+                        <!--  <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="issn_no">ISSN No </label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="issn_no" name="ISSN No" class="form-control" [(ngModel)]="productSearchModel.issn_no" #issn_no="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="isbn_no">ISBN No</label>
+                              <div class="col-8">
+                                <input type="text" placeholder="" id="isbn_no" name="ISBN No" class="form-control" [(ngModel)]="productSearchModel.isbn_no" #isbn_no="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="top_n_product">Top N Product </label>
+                              <div class="col-8">
+
+                                <input type="email" placeholder="" id="top_n_product" name="Top N Product" 
+                                       class="form-control"
+                                       [(ngModel)]="productSearchModel.top_n_product" #top_n_product="ngModel">
+
+                                <app-data-drop-down #top_n_product name="topNNumbers" id="topNNumbers" [ddOptions]="ddOptionsTopN" [ddTrigger]="ddTriggerTopN">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>-->
+                      </div>
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #prodList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="info-above-dt">Right click on a particular product row for associated Price List, Sales Report,Customer List, Order Details</div>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #salesReport>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtSalesOptions" [class]="tableClass" #salesReportData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+
+  <ng-template #custList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtCustListOptions" [class]="tableClass" #custListData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #gcOrder>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtGCOrderOptions" [class]="tableClass" #gcOrderData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #gtOrder>
+    <div class="col-md-12  nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtGTOrderOptions" [class]="tableClass" #gtOrderData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #orderDetails>
+    <div class="col-md-12  nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOrderDetailsOptions" [class]="tableClass" #orderDetailsData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #priceList>
+    <div class="col-md-12  nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtPriceListOptions" [class]="tableClass" #priceListData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #rateCard>
+    <div class="col-md-12  nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtRateCardOptions" [class]="tableClass" #rateCardData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>
+
+
+
+
+<ul id="dtTableContexMenu" style="display:none" class="col-md-12 nopadding mar-t20">
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openPriceList()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-pie-chart"></i> Price List
+  </li>
+  <br>
+
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openSalesReport()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-pie-chart"></i> Sales Report
+  </li>
+  <br>
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openCustList()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-list-alt"></i> Customer List
+  </li>
+  <br>
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openOrderDetails()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-first-order"></i> Order Detalis
+  </li>
+  <br>
+
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openGraceOrder()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-first-order"></i> Grace Orders
+  </li>
+  <br>
+  <!-- <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openGratisOrder()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-reorder"></i> Gratis Orders
+  </li> -->
+</ul>

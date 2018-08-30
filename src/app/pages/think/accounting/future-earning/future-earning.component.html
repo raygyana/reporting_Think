@@ -1,0 +1,109 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Future Earning Search" tabId="futureEarning">
+      <div class="boxed">
+        <div id="content-container">
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Future Earning" [searchType]="getSearchType()" [baseComponent]="mySelf">
+                  </app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" novalidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="Month">Start Month
+                                <span class="mandatory"> *
+                                </span>
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngMonth" #Month name="Month" id="Month" [ddOptions]="ddOptionsMonth" [ddTrigger]="ddTriggerMonth"
+                                  isrequired="true">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="Year">Start Year
+                                <span class="mandatory"> *
+                                </span>
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngYear" #Year name="Year" id="Year" [ddOptions]="ddOptionsYear" isrequired="true">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="Product Name">Product Name
+                                <span class="mandatory"> *
+                                </span>
+                              </label>
+                              <div class="col-sm-8">
+
+                                <app-data-drop-down [(ngModel)]="ngProduct" #productName name="productName" id="productName" 
+                                [ddTrigger]="ddTriggerProductName" 
+                                [ddOptions]="ddOptionsproductName"
+                                  isrequired="true">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="Profit Center">Profit Center
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-sm-8">
+                                <app-data-drop-down [(ngModel)]="ngCenter" #profitCentre name="profitCentre" id="profitCentre" [ddOptions]="ddOptionsPCenter"
+                                  isrequired="true">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="info-above-dt">
+                      &nbsp;
+                      <b>Note :</b> Please select date range from month Start to End
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)"
+                      (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #futureEarningList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #futureEarningData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

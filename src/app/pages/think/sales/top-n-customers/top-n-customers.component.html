@@ -1,0 +1,111 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Top N Customers Search" tabId="topNCustomers">
+      <!--Page content start-->
+      <!--===================================================-->
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header [showInfoPopUp]="showInfoPopUp" headerCaption="Top N Customers" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order Date Range
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-cz-date-picker [dataInput]="topNCustomersModel"></app-cz-date-picker>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="country">Top N Number
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-8">
+                          <app-data-drop-down [isrequired]="true" [(ngModel)]="ngNNumbers" #nNumbers name="nNumbers" id="nNumbers" [ddOptions]="ddOptionsTopN" [ddTrigger]="ddTriggerTopN">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="Region">Region
+                          <!-- <span class="mandatory"> *</span> -->
+                        </label>
+                        <div class="col-sm-8">
+                          <app-data-drop-down #regionId name="regionId" id="regionId" [ddOptions]="ddOptionsReg" (onValueChange)="getCountryDropDownData($event)" [(ngModel)]="ngRegionId">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="country">Country
+                          <!-- <span class="mandatory"> *</span> -->
+                        </label>
+                        <div class="col-sm-8">
+                          <app-data-drop-down name="country" id="country" #country [ddOptions]="ddOptionsCountry" [ddTrigger]="ddTrigger" [(ngModel)]="ngCountry" ngDefaultControl>
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Customer ID As
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-data-drop-down [(ngModel)]="ngCenter" #customer_ids name="Customer ID" id="customer_ids" [ddOptions]="ddOptionsCustId" [ddTrigger]="ddTriggerCustId" required>
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                        <div class="col-8">
+                          <input autofocus type="number" placeholder="" id="cust_id" name="cust_id" class="form-control" (keydown)="restrictNumeric($event)" min="1" [(ngModel)]="topNCustomersModel.cust_id"
+                            #cust_id="ngModel">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <app-think-search-footer [showLimit]="false" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event) " (onReset)="doOnReset() " [baseComponent]="mySelf"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #topNCustomersList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #topNCustomersListData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,24 @@
+<app-angular-loader #baseLoader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12">
+  <div class="panel">
+    <div class="panel-body">
+      <h2 class="mainHeading" style="font-size: 15px;">
+        <span>{{headerMessage}}</span>
+        <span id="trendTypeIdInc" style="font-weight: Bold;">( YTD )</span>
+      </h2>
+      <div class="row">
+        <div *ngIf="RenderDynamicDatatable" class="gridTable mHeight300 ">
+          <table datatable [dtOptions]="dtOptions" #dynamicReportData [class]="tableClass">
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="graphBoxes-white ">
+  <div class="gridInsightTable">
+
+  </div>
+</div>

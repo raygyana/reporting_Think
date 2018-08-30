@@ -1,0 +1,336 @@
+/* FOr Mit CLient
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+/* Login Start*/
+
+body {
+  color: #333;
+}
+
+.brand-home-left-bg {
+  background-color: #212121 !important;
+}
+
+.btn-lg:active,
+.btn-lg:focus,
+.btn-lg:hover,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.flat-btn:active,
+.flat-btn:focus,
+.flat-btn:hover {
+  background-color: #424242 !important;
+  color: #fff !important;
+  border-color: #424242;
+}
+
+/* Login End*/
+
+.sidebar {
+  background-color: #212121 !important;
+}
+
+.nav-tab ul.nav-tabs li a.active,
+.nav-tab ul.nav-tabs li a:focus,
+.nav-tab ul.nav-tabs li a:hover {
+  background: #212121 !important;
+  color: #fff !important;
+}
+
+.mainnav-profile .mnp-name {
+  color: #f2f2f2 !important;
+}
+
+.user-icon a {
+  color: #f2f2f2 !important;
+}
+
+.user-icon a:hover {
+  color: #757575;
+}
+
+.card .card-header h5 a {
+  color: #f2f2f2 !important;
+}
+
+.card .card-header {
+  border-bottom: 1px solid #424242 !important;
+}
+
+.card-block {
+  background-color: #313131 !important;
+}
+
+.card-block ul li a {
+  color: #f2f2f2 !important;
+  border-bottom: 1px solid #424242 !important;
+}
+
+.btn-dkblue {
+  background-color: #212121 !important;
+  color: #fff !important;
+}
+
+.btn-dkblue:hover {
+  color: #f8f8f8 !important;
+  background-color: #424242 !important;
+}
+
+#navId a.active1 {
+  color: #0082d7 !important;
+}
+
+.btn,
+.btn-lg,
+.flat-btn {
+  border-radius: 2px;
+  /* background-color: #234254;*/
+  /* border: 0 none; */
+}
+
+.btn.disabled,
+.btn:disabled,
+.btn.disabled:hover {
+  opacity: 0.90;
+  background-color: #ccc !important;
+  cursor: not-allowed;
+}
+
+/*4 dec css */
+
+/****************dt-bold hover 2017,22Dec *****************/
+
+.dt-bold {
+  color: #0082d7 !important;
+}
+
+.table-hover tbody tr:hover,
+table.dataTable tbody>tr.selected,
+.table-hover tbody tr:hover .dt-bold,
+table.dataTable tbody>tr.selected .dt-bold {
+  background-color: #616161;
+  color: #fff !important;
+}
+
+/****************dt-bold hover *****************/
+
+table.dataTable thead td,
+table.dataTable thead th {
+  background-color: #0082d7;
+  color: #fff;
+}
+
+.page-item.active .page-link {
+  background-color: #0082d7;
+  border-color: #0082d7;
+}
+
+.page-link,
+.page-link:visited {
+  color: #0082d7;
+}
+
+a.dt-button {
+  background-color: #00a5e7 !important;
+  background-image: linear-gradient(180deg, #00a5e7, #007ad3);
+  border: 1px solid #0082d7;
+}
+
+a {
+  color: #0082d7;
+}
+
+a.dt-button:hover,
+a.dt-button:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #00b9e6 !important;
+  background-image: linear-gradient(180deg, #007ad3, #00a5e7);
+  border: 1px solid #00b9e6 !important;
+}
+
+.nav-tab ul.nav-tabs li a.active,
+.nav-tab ul.nav-tabs li a:focus,
+.nav-tab ul.nav-tabs li a:hover {
+  background: #0082d7 !important;
+  color: #fff !important;
+  bottom: -2px;
+}
+
+.nav-tab ul.nav-tabs li a {
+  background: #21212191 !important;
+}
+
+.nav-tab ul.nav-tabs {
+  top: -38px;
+}
+
+.nav-tabs li {
+  margin-bottom: -1px;
+}
+
+.save-search ul li i {
+  padding-left: 8px;
+}
+
+div.dt-button-collection {
+  width: 165px;
+}
+
+div.dt-button-collection a {
+  white-space: normal;
+}
+
+.arrow_box:before {
+  border-bottom-color: #c4bcbc;
+}
+
+.ss-caret {
+  vertical-align: top;
+  padding-top: 7px;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  display: inline-block;
+  float: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+  margin-top: 12px;
+}
+
+.card .card-header h5 .left-disabled {
+  color: #737373 !important;
+}
+
+.card-block ul li .left-disabled {
+  color: #737373 !important;
+}
+
+/* Start of  Comparison table*/
+
+/*Start fixed for 1st 3 col*/
+
+.colSpan3 thead tr:nth-child(1) th:nth-child(1) {
+  visibility: hidden;
+  border: none
+}
+
+.colSpan3 tbody tr td:nth-child(3) {
+  border-right: 1px solid #c3c7ca;
+}
+
+/*END fixed for 1st 3 col*/
+
+/*Start fixed for 1st 2 col*/
+
+.colSpan2 thead tr:nth-child(1) th:nth-child(1) {
+  visibility: hidden;
+  border: none
+}
+
+.colSpan2 tbody tr td:nth-child(2) {
+  border-right: 1px solid #c3c7ca;
+}
+
+/*END fixed for 1st 2 col*/
+
+/*Start fixed for 1st  col*/
+
+.colSpan1 thead tr:nth-child(1) th:nth-child(1) {
+  visibility: hidden;
+  border: none
+}
+
+.colSpan1 tbody tr td:nth-child(1) {
+  border-right: 1px solid #c3c7ca;
+}
+
+/*END fixed for 1st  col*/
+
+/*Start fixed for 1st 4 col*/
+
+.colSpan4 thead tr:nth-child(1) th:nth-child(1) {
+  visibility: hidden;
+  border: none
+}
+
+.colSpan4 tbody tr td:nth-child(4) {
+  border-right: 1px solid #c3c7ca;
+}
+
+/*END fixed for 1st 4 col*/
+
+.nav-tabs .nav-link.disabled {
+  color: #868e96 !Important;
+}
+
+.nav-tabs .nav-link.disabled:hover {
+  background: #21212191 !Important;
+  color: #868e96 !Important;
+  border-color: transparent !Important;
+  padding: 9px 9px 9px 9px !Important;
+  bottom: 0 !important
+}
+
+/*common classes for comparison*/
+
+.comparisonCellRightBorder {
+  border-right: 1px solid #c3c7ca !important;
+}
+
+.comparisonCellBottomBorder {
+  border-bottom: 1px solid #c3c7ca !important;
+}
+
+.headBorderColor {
+  border-color: #4593e1 !important;
+}
+
+.otherComparisonTH {
+  border-color: #4593e1 !important;
+  background-color: #006fb7 !important;
+  border: 0;
+}
+
+.otherComparisonBG {
+  border-top: 2px solid #0082d7 !important;
+  border-bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center !important;
+  border-left: 1px solid #c3c7ca !important;
+  background-color: #006fb7;
+}
+
+.firstColSpanTopHead {
+  border-top: 2px solid #0082d7 !important;
+  border-bottom: 0px !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center !important;
+  border-left: 1px solid #c3c7ca !important;
+}
+
+/* End of  Comparison table*/
+
+.errorMsg {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  left: 50px;
+  line-height: 12px;
+}
+
+.info-above-dt {
+  color: #2681d8;
+}
+
+.btn.disabled,
+.btn:disabled,
+.btn.disabled:hover {
+  border: none;
+}

@@ -1,0 +1,211 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Customer Search" tabId="custSeach">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Customer" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                              <div class="col-8">
+                                <input autofocus type="number" placeholder="" id="cust_id" name="cust_id" class="form-control" (keydown)="restrictNumeric($event)" min="1" [(ngModel)]="custSearchModel.cust_id"
+                                  #cust_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="dept_id">Department
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Department ID" placeholder="" id="dept_id" class="form-control" [(ngModel)]="custSearchModel.dept_id" #dept_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="f_name">First Name
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="First Name" placeholder="" id="f_name" class="form-control" [(ngModel)]="custSearchModel.f_name" #f_name="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="demo-hor-inputemail">Last Name
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Last Name" placeholder="" id="demo-hor-inputemail" class="form-control" [(ngModel)]="custSearchModel.l_name" #l_name="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="email">Email Address
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input name="Email Address" placeholder="" type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" id="email" class="form-control" [(ngModel)]="custSearchModel.email_address"
+                                  #email="ngModel">
+                                <div [hidden]="email.valid || email.pristine" class="alert custAlert alert-danger">
+                                  Enter valid email id
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" -->
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="old_customer_id">Old Customer ID
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Old Customer Id" placeholder="" id="old_customer_id" class="form-control" [(ngModel)]="custSearchModel.old_cust_id" #old_cust_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="region">Region </label>
+                              <div class="col-8">
+                                <app-data-drop-down #region name="region" id="region" [(ngModel)]="ngRegion" [ddOptions]="ddOptionsReg" (onValueChange)="getCountryDropDownData($event)">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="country">Country</label>
+                              <div class="col-8">
+                                <app-data-drop-down name="country" id="country" #country [(ngModel)]="ngCountry" [ddOptions]="ddOptionsCountry" [ddTrigger]="ddTrigger" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- (onValueChange)="setCountryValue($event)" -->
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="city">City
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="City" placeholder="" id="city" class="form-control" [(ngModel)]="custSearchModel.city" #city="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="zip">Zip
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Zip" placeholder="" id="zip" class="form-control" [(ngModel)]="custSearchModel.zip" #zip="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <div class="col-sm-4">
+                                <span class=" pull-right">
+                                  <label>Show # records: </label>
+                                </span>
+                              </div>
+                              <div class="col-sm-8">
+                                <span class=" text-left">
+                                  <input placeholder="" #limit id="limit" name="limit" [(ngModel)]="custSearchModel.limit" class="form-control" (keydown)="restrictNumeric($event)"
+                                    min="1" type="number">
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #custList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+
+
+          <div class="info-above-dt">
+            Right click on a particular customer row for their Order Sales Summary and History
+          </div>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+
+
+
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #salesReport>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <div class="panel-body">
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtSalesOptions" [class]="tableClass" #salesReportData>
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>
+
+
+
+<ul id="dtTableContexMenu" style="display: none" class="col-md-6 nopadding sales-button">
+  <li [ngClass]="{'disabled': !isRowSelected()}" (click)="openSalesReport()" class="btn btn-dkblue btn-sm">
+    <i _ngcontent-c1="" class="fa fa-pie-chart"></i> Sales Report
+  </li>
+</ul>

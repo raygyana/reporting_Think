@@ -1,0 +1,98 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs (onTabChange)="doOnTabChange()">
+    <my-tab tabTitle="Sales By Agency Details Search" tabId="salesByAgencyDetails">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="Sales By Agency Details" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form (change)="doOnFormChange()" class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order Date Range
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <app-cz-date-picker [dataInput]="agencySearchModel"></app-cz-date-picker>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="demo-hor-inputemail">Agency
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-8">
+                          <!-- <select class="form-control select-class" name="agency" id="agency" multiple [(ngModel)]="agencySearchModel.agency" #agency="ngModel">
+                            <option [value]="agency.customerId" *ngFor="let agency of agencyData">{{agency.company}}</option>
+                          </select> -->
+                          <app-data-drop-down [(ngModel)]="ngAgencycode" #agency name="agency" id="agency" [ddOptions]="ddOptionsagency" [isrequired]="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="demo-hor-inputemail">Product Name
+                          <!-- <span class="mandatory"> *</span> -->
+                        </label>
+                        <div class="col-8">
+                          <!-- <select class="form-control select-class" name="journal" id="journal" multiple [(ngModel)]="agencySearchModel.journal" #journal="ngModel">
+                            <option [value]="journal.ocID" *ngFor="let journal of journalData">{{journal.description}}</option>
+                          </select> -->
+                          <app-data-drop-down [(ngModel)]="ngjournalData" #journal name="journal" id="journal" [ddOptions]="ddOptionsproductName">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <div class="col-sm-4">
+                          <span class=" pull-right">
+                            <label>Show # records: </label>
+                          </span>
+                        </div>
+                        <div class="col-sm-8">
+                          <span class=" text-left">
+                            <input placeholder="" #limit id="limit" name="limit" [(ngModel)]="agencySearchModel.limit" class="form-control" (keydown)="restrictNumeric($event)"
+                              min="1" type="number">
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                  [baseComponent]="mySelf" [validState]="validState"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #salesByAgencyDetails>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #salesByAgencyDetailsData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

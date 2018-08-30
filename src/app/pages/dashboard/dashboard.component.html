@@ -1,0 +1,167 @@
+<div class="boxed">
+  <div class="" id="content-container">
+    <div class="" id="page-content">
+      <h1 class="pageTitle position-relative" *ngIf="showDashboard">
+        <i class="fa fa-tachometer"></i> Dashboard
+        <span class="publisherColor ">
+          <b>Note </b>: Displayed data and Reports shown below are currently for {{currentMonthStr}}-{{liveYear}}</span>
+      </h1>
+      <div class="row mrb10" *ngIf="showDashboard">
+        <div class="col">
+          <app-full-text></app-full-text>
+        </div>
+        <div class="col">
+          <app-page-view></app-page-view>
+        </div>
+        <div class="col">
+          <app-account-summary></app-account-summary>
+        </div>
+        <div class="col">
+          <app-processing-status></app-processing-status>
+        </div>
+      </div>
+      <!--Graphs End Here-->
+
+      <!--Note End Here-->
+
+      <!-- <counter5 dashboard starts here> -->
+      <div class="mrb10">
+        <h1 class="pageTitle position-relative publisherColor">
+          <b>Note </b>: Displayed data and Reports shown below are for Counter5
+        </h1>
+
+        <div class="row mrb10" class="col-md-12 pr-0 pl-0 pointerOnDt">
+
+          <app-counter5-analysis-chart></app-counter5-analysis-chart>
+
+        </div>
+
+        <div class="row mrb10" class="col-md-12 pr-0 pl-0 pointerOnDt">
+
+          <app-line-with-data-label></app-line-with-data-label>
+        </div>
+
+      </div>
+
+      <!-- <counter5 dashboard ends here> -->
+
+
+      <div class="mrb10" *ngIf="dashBoardItems['FULL_TEXT_TREND_ANALYTICS'] === '1'">
+        <app-analytics-increase></app-analytics-increase>
+        <div class="col-md-12 text-right mt-2">
+          <a class="btn btn-primary" [routerLink]="['./analyticsincrease']"> More Increase
+          </a>&nbsp;&nbsp;
+          <a class="btn btn-primary" [routerLink]="['./analyticsdecrease']">More Decrease
+          </a>
+        </div>
+      </div>
+
+
+
+      <!--Increase & Decrease Boxes End Here-->
+
+      <div class="row mrb10" *ngIf="dashBoardItems['FULL_TEXT_TREND_ANALYTICS_GRAPH'] === '1'">
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h2 class="mainHeading" style="font-size: 15px;">
+                <span class="">
+                  <span> {{headerMessage}} </span>
+                  <span id="trendTypeIdInc" style="font-weight: Bold;">ALL </span>
+                </span>
+
+                <span class="text-right pull-right">
+                  <span> Graph Type - </span>
+                  <a href="javascript:;" id="column" (click)="chartType= 'column'">
+                    <span>
+                      Column&nbsp;
+                    </span>
+                    <i class="fa fa-bar-chart" style="font-size:15px; "></i>
+                  </a>,&nbsp;
+                  <a href="javascript:;" id="Line" (click)="chartType= 'line'">
+                    <span>
+                      Line&nbsp;
+                    </span>
+                    <i class="fa fa-line-chart" style="font-size:15px; "></i>
+                  </a>,&nbsp;
+                  <a href="javascript:;" id="Bar" (click)="chartType= 'bar'">
+                    <span>
+                      Bar&nbsp;
+                      <i class="fa fa-align-left" style="font-size:15px; "></i>
+                    </span>
+                  </a>,&nbsp;
+                  <a href="javascript:;" id="Spline" (click)="chartType= 'spline'">
+                    <span>
+                      Spline&nbsp;
+                    </span>
+                    <i class="fa fa-area-chart" style="font-size:15px;"></i>
+                  </a>
+                </span>
+              </h2>
+
+              <app-analysis-chart [chartType]="chartType"></app-analysis-chart>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Six Months Full-Text Boxes End Here-->
+      <div class="row mrb10" *ngIf="dashBoardItems['TOP_10_UNIDENTIFIED_FULL_TEXT_REQUESTS'] === '1'">
+        <div class="col-md-12  pr-0 pl-0">
+          <!-- <div class="graphBoxes-white"> -->
+
+          <!-- <app-unidentified-ip-detail></app-unidentified-ip-detail> -->
+          <app-record-table [serviceURL]="constants.getUnidentifiedIPDetailUrl()" [messageString]="constants.getUnidentifiedIPDetailMsg()"
+            [headerMessage]="constants.getUnidentifiedIPDetailMsg()"></app-record-table>
+          <!-- </div> -->
+        </div>
+        <div class="col-md-12  text-right">
+          <div class="moreBlock">
+            <a class="custMore" [routerLink]="['./unidentifiedip']">Click Here to View More</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div *ngIf="dashBoardItems['USER_TECHNOLOGY_ANALYSIS'] === '1'" class="col-md-12 pr-0 pl-0">
+        <app-user-technology-analysis>
+        </app-user-technology-analysis>
+      </div>
+
+      <div class="row mrb10" *ngIf="dashBoardItems['TOP_10_HIGHEST_ACCESSING_IP'] === '1'">
+        <div class="col-md-12 pr-0 pl-0">
+          <!-- <div class="graphBoxes-white"> -->
+
+          <!-- <app-highest-ip-detail></app-highest-ip-detail> -->
+          <app-record-table [serviceURL]="constants.getHigheshIPDetailUrl()" [messageString]="constants.getHigheshIPDetailMsg()" [headerMessage]="constants.getHigheshIPDetailMsg()"></app-record-table>
+
+        </div>
+        <div class="col-md-12  text-right">
+          <div class="moreBlock">
+            <a class="custMore" [routerLink]="['./ipdetails']">Click Here to View More</a>
+          </div>
+
+        </div>
+      </div>
+      <!--Top 10 End Here-->
+
+      <!-- <div class="row mrb10" *ngIf="showDashblioard || showLicenceDenial"> -->
+      <div *ngIf="dashBoardItems['IDENTIFIED_LICENSE_DENIAL'] === '1'" class="col-md-12 pr-0 pl-0 pointerOnDt">
+        <!-- <div class="graphBoxes-white"> -->
+
+        <!-- <app-licence-denial></app-licence-denial> -->
+        <app-record-table [serviceURL]="constants.getLicenceDenialUrl()" [messageString]="constants.getLicenceDenialMsg()" [headerMessage]="constants.getLicenceDenialMsg()"></app-record-table>
+
+        <div class="col-md-12  text-center">
+          <div class="moreBlock">
+            <a class="custMore" [routerLink]="['./licencedenial']">Click Here to View More</a>
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--Identified Boxes End Here-->

@@ -1,0 +1,153 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs (onTabChange)="doOnTabChange()">
+    <my-tab tabTitle="YTD Amount By Start Year Report Search" tabId="ytdAmountByStartYearReport">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="YTD Amount By Start Year Report" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form (change)="doOnFormChange()" class="form-horizontal" name="form" (ngSubmit)="f.form.valid" #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="cust_id">Order Date From
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-cz-date-picker [defaultInput]="defaultInput" [dataInput]="ytdAmountByStartYearModel"></app-cz-date-picker>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 col-form-label text-right" for="marketSector">Market Sector
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+
+                          <app-data-drop-down #marketSector name="marketSector" id="marketSector" [ddOptions]="ddOptionsMarketSector" [ddTrigger]="ddTriggerMarketSector" [(ngModel)]="ngMarketSector"
+                            isrequired="true">
+                          </app-data-drop-down>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="row">
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="volumeYear">Volume Year
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #volumeYear name="volumeYear" id="volumeYear" [ddOptions]="ddOptionsexpyear" [(ngModel)]="ngVolYear" isrequired="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="revenueMethod">
+                          Revenue Method
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #revenueMethod name="
+                          revenueMethod" id="revenueMethod" [ddOptions]="ddOptionsRevenueMethod" [ddTrigger]="ddTriggerRevenueMethod" [(ngModel)]="ngRevMethod"
+                            isrequired="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 col-form-label text-right" for="orderStatus">Order Status
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #orderStatus name="orderStatus" id="orderStatus" [ddOptions]="ddOptionsOrderStatus" [ddTrigger]="ddTriggerOrderStatus" [(ngModel)]="ngOrderStatus"
+                            isrequired="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="paymentStatus">
+                          Payment Status
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #paymentStatus name="
+                          paymentStatus" id="paymentStatus" [ddOptions]="ddOptionsPaymentStatus" [ddTrigger]="ddTriggerPaymentStatus" [(ngModel)]="ngPaymentStatus"
+                            isrequired="true">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <app-think-search-footer [extraButton]="'Source Data'" (extraSearch)="doOnSearch()" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)"
+                  (onReset)="doOnReset()" [baseComponent]="mySelf"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #ytdAmountByStartYearReportList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+
+            <div *ngIf="RenderDynamicDatatable" class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #ytdAmountByStartYearReportData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+
+  <ng-template #ytdSourceCodeAmountList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+              <table datatable [dtOptions]="dtAccOptions" #ytdSourceCodeAmountData [class]="tableClass"> </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

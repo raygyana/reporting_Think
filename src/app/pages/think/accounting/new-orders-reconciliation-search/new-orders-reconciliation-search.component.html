@@ -1,0 +1,99 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="New Orders Reconciliation Search" tabId="custSeach">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--<div id="page-title"> 
+                  <h1 class="page-header">Submission Details</h1>
+                  
+                  </div>-->
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="New Orders Reconciliation " [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <!-- (onValueChange)="setCountryValue($event)" -->
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-5 col-form-label text-right" for="start_date">Reconciliation Date Range
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-7">
+                                <app-cz-date-picker [dataInput]="newOrdersReconciliationSearchModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-5 col-form-label text-right" for="profitCentre">Profit Center
+                              </label>
+                              <div class="col-7">
+                                <app-data-drop-down [(ngModel)]="ngTaxProfitCentre" #profitCentre name="profitCentre" id="profitCentre" [ddOptions]="ddOptionsPCenter">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-5 col-form-label text-right" for="">Include Tax
+                                <span class="text-muted"> </span>
+                              </label>
+                              <div class="col-sm-7">
+                                <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                                  <input type="checkbox" name="includeTax" placeholder="" id="includeTax" class=" custom-control-input" [(ngModel)]="newOrdersReconciliationSearchModel.includeTax"
+                                    #includeTax="ngModel" (change)="checkchange($event)">
+                                  <span class="custom-control-indicator"></span>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="info-above-dt">
+                      &nbsp;
+                      <b>Note :</b> Please select date range from month Start to End
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)"
+                      (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #newOrdersReconciliationList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,215 @@
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* Scrollable contents if viewport is shorter than content. */
+  /*border-right: 1px solid #eee;*/
+}
+
+
+/*/deep/#ieee .sidebar{background-color: #234254;}
+/deep/#demo .sidebar{background-color: #131313;}*/
+
+
+/* Sidebar navigation */
+
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item+.nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/deep/ .card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+/deep/ .card .card-header {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #2d5065;
+  padding: 0;
+}
+
+/deep/ .card .card-header h5 {
+  font-size: .9rem;
+  font-weight: 400;
+  color: #1f9fb4
+}
+
+/deep/ .card .card-header h5 a {
+  color: #1f9fb4;
+  text-decoration: none;
+  display: block;
+  padding: .75rem;
+}
+
+/deep/ .card .card-header h5 a:hover {
+  color: #f4f4f4;
+}
+
+/deep/ .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: initial;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/deep/ .card-block {
+  padding: 0;
+  background-color: #1e3a4a;
+}
+
+/deep/ .fa-dashboard:before {
+  content: "\f0e4"
+}
+
+/deep/ .fa-pie-chart:before {
+  content: "\f200"
+}
+
+/deep/ .fa-calculator:before {
+  content: "\f1ec"
+}
+
+/deep/ .fa-search:before {
+  content: "\f002"
+}
+
+/deep/ .fa-archive:before {
+  content: "\f187"
+}
+
+/deep/ .fa-angle-right:before {
+  content: "\f105"
+}
+
+.profile-wrap .user-icon .fa {
+  font-size: 20px;
+}
+
+/deep/ .card-block ul {
+  padding: 0;
+  margin: 0 0 0 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+/deep/ .card-block ul li {
+  position: relative;
+  display: block;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+/deep/ .card-block ul li a {
+  color: #1f9fb4;
+  text-decoration: none;
+  display: block;
+  font-size: .9rem;
+  border-bottom: 1px solid #2d5065;
+  font-weight: 400;
+  padding: .5rem 0;
+  padding-left: 35px;
+  padding-right: 10px;
+}
+
+/deep/ .card-block ul li a:hover {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.card-block ul li a .fa-angle-right {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 1px;
+}
+
+/deep/ .card .card-header h5 a.disabled {
+  cursor: not-allowed;
+  opacity: .35;
+  color: #fff;
+}
+
+/deep/ .card .collapse .card-block ul li a.disabled {
+  cursor: not-allowed;
+  opacity: .35;
+  color: #fff;
+}
+
+.card-block ul {
+  margin-left: 0px;
+}
+
+.card-block ul li ul {
+  margin-left: 0px;
+}
+
+.card-block ul li ul li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.card-block ul li ul li a {
+  padding-left: 60px;
+}
+
+.card-block ul li ul li:last-child {
+  border-bottom: 0px;
+}
+
+.menu-disable {
+  cursor: not-allowed;
+  background: rgba(249, 249, 249, 0);
+  opacity: .4;
+  pointer-events: none;
+}
+
+.menu-disable a {
+  color: #2e556b;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.anchorDisabled {
+  pointer-events: none;
+}

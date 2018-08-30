@@ -1,0 +1,119 @@
+/*.demo {
+	text-align: center;
+}*/
+
+
+/*
+ * Base structure
+ */
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  background-color: #f4f4f4;
+}
+
+
+/*
+ * Typography
+ */
+
+h1 {
+  /* margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;*/
+}
+
+
+/*
+ * Dashboard
+ */
+
+
+/* Placeholders */
+
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/deep/ .fa-tachometer:before {
+  content: "\f0e4"
+}
+
+/deep/ .fa-tachometer {
+  font-size: 24px !important;
+}
+
+
+/* for IEEE  */
+
+.publisherColor {
+  margin-bottom: 8px;
+  margin-top: -10px;
+  padding: 5px;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
+}
+
+/deep/ .fa-info-circle:before {
+  content: "\f05a";
+}
+
+/deep/ .dropdown-toggle::after {
+  display: none;
+}
+
+.arrow_box {
+  position: relative;
+  background: #e5eaec;
+  border: 1px solid #e5eaec;
+}
+
+.arrow_box:after,
+.arrow_box:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(229, 234, 236, 0);
+  border-bottom-color: #e5eaec;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.arrow_box:before {
+  border-color: rgba(229, 234, 236, 0);
+  border-bottom-color: #e5eaec;
+  border-width: 11px;
+  margin-left: -11px;
+}
+
+/deep/.dropdown-item {
+  font-size: 12px;
+}
+
+/deep/ .table-responsive td {
+  white-space: nowrap;
+}
+
+/deep/.table thead th {
+  white-space: nowrap;
+}

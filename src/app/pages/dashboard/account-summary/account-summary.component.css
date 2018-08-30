@@ -1,0 +1,77 @@
+.panel-stat {
+    background: none;
+}
+
+.panel-stat .panel-heading {
+    padding: 15px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 156px;
+}
+
+.panel-stat .stat {
+    color: #fff;
+    max-width: 250px;
+}
+
+.panel-stat .stat img {
+    text-align: center;
+}
+
+.panel-stat i {
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+.panel-stat .stat-label {
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: 0.75;
+    display: block;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.panel-stat h1 {
+    margin: 0;
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.panel-stat h4 {
+    margin: 0;
+    font-size:14px;
+}
+
+.sublabel {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.panel-success .panel-heading {
+    background-color: #1caf9a;
+}
+.panel-danger .panel-heading {
+    background-color: #d9534f;
+}
+.panel-primary > .panel-heading {
+    background-color: #428bca;
+    border-color: #428bca;
+    color: #fff;
+}
+.panel-dark .panel-heading {
+    background-color: #1d2939;
+}
+.stat-label.active{    font-style: italic;
+    font-size: 14px;
+     font-weight: 700;}
+	 .stat .form-control {
+    padding: 0 6px;height:22px;
+}
+.mb15 {
+    margin-bottom: 15px;
+}

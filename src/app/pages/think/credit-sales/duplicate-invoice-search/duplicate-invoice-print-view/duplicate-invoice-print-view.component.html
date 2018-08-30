@@ -1,0 +1,427 @@
+<div id="duplicateInvoice" style="display: none">
+  <ng-container *ngFor="let item of dataToShow">
+    <div id="page-wrap">
+      <div id="header">
+        <div style="background:#ccc;border:1px solid #000;border-radius:5px;padding:20px;display: inline-block;">INVOICE
+          <br> Invoice No:{{searchModel?.invoiceNumber}} </div>
+        <img src="http://www.pharmpress.com/images/logo.png" style="float:left;left: 0;" class="logo" alt="Pharmaceutical Press" title="Pharmaceutical Press" width="250">
+      </div>
+      <div style="clear:both"></div>
+      <div id="customer">
+        <table id="meta">
+          <tr>
+            <td class="meta-head">Invoice to Id:</td>
+            <td> {{singleDetails?.bill_to_customer_id}} </td>
+          </tr>
+          <tr>
+            <td class="meta-head">Contact Name:</td>
+            <td>{{singleDetails?.contact_name}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Contact No:</td>
+            <td> {{singleDetails?.phone}} </td>
+          </tr>
+        </table>
+        <table id="meta">
+          <tr>
+            <td class="meta-head">Invoice Date</td>
+            <td> {{singleDetails?.invoice_date }}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Customer Id :</td>
+            <td>{{singleDetails?.customer_id}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Cust Order Ref:</td>
+            <td>{{singleDetails?.cust_order_ref}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">PHP Vat No. :</td>
+            <td>{{singleDetails?.vat_id}}</td>
+          </tr>
+        </table>
+
+
+        <table id="meta">
+          <tr>
+            <td class="meta-head">Payment Term</td>
+            <td> {{singleDetails?.payment_term}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Due Date.:</td>
+            <td>{{singleDetails?.due_date }}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Cust VAT No.:</td>
+            <td>{{singleDetails?.tax_id_number}} </td>
+          </tr>
+        </table>
+      </div>
+      <div id="customer">
+        <div id="textarea" class="right">
+          <b>Delivery Address:</b>
+          <br> {{singleDetails?.delivery_address}}
+        </div>
+        <div class="centerarea">
+          <p>Is your address correct? Please advise us if any changes required.</p>
+
+        </div>
+
+        <div id="textarea">
+          <b>Invoice Address:</b>
+          <br> {{singleDetails?.invoice_address}}
+        </div>
+
+      </div>
+      <table id="items" style=" border-collapse: collapse;">
+
+        <tr class="noneclass">
+          <th style="border-right: 1px solid #000;">Access Type</th>
+          <th>Number of Users</th>
+          <th>ISSN</th>
+          <th style="width: 30%;">Title</th>
+          <th>Type</th>
+          <th>Sub Start Date</th>
+          <th>Sub End Date</th>
+          <th>Price</th>
+          <th>Discount</th>
+          <th>VAT</th>
+          <th>Value</th>
+
+        </tr>
+
+        <tr class="noTopNBottomBorder" *ngFor="let obj of item">
+          <td>{{obj?.access_type}}</td>
+          <td>{{obj?.quantity}}</td>
+          <td>{{obj?.issn}}</td>
+          <td style="white-space: normal;">{{obj?.title}}</td>
+          <td>{{obj?.type}}</td>
+          <td>{{obj?.sub_start_date }}</td>
+          <td>{{obj?.sub_end_date }}</td>
+          <td>{{obj?.price}}</td>
+          <td>{{obj?.discount}}</td>
+          <td>{{obj?.vat}}</td>
+          <td>{{obj?.value}}</td>
+        </tr>
+        <tr class="item-row">
+          <td colspan="7" style="text-align:right">
+            <b>Sub Total:</b>
+          </td>
+          <td>{{singleDetails?.sub_total_price}}</td>
+          <td>{{singleDetails?.sub_total_discount}}</td>
+          <td>{{singleDetails?.sub_total_vat}}</td>
+          <td> {{singleDetails?.sub_total_value}}</td>
+        </tr>
+      </table>
+
+      <div id="customer">
+
+        <div id="textarea" class="box-size">
+          <b>Special Instructions:</b>
+        </div>
+
+        <div style="float:right;width:40%;">
+          <div id="textarea" style="text-align:center;float:right">
+            <b>INVOICE TOTAL</b>
+          </div>
+
+          <div id="textarea" style="background-color:#fff;float:right;border:1px solid #cacaca;">
+            <p style="text-align: right;"> {{singleDetails?.sub_total_value}} </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="terms">
+        <p> {{singleDetails?.footer}}</p>
+        <p>
+          <b>Tel:</b> +44-(0)-203-318-3141
+          <b>Fax:</b> +44-(0)-120-223-3874
+          <b>Email:</b>
+          <a href="">php@adi-mps.com</a>
+        </p>
+        <p>Pharmaceutical Press is a trading division of The Royal Pharmaceutical Society of Great Britain</p>
+      </div>
+
+    </div>
+  </ng-container>
+
+  <div id="page-wrap-2">
+    <div class="page-contant-left">
+      <p>TERMS AND CONDITIONS OF SUPPLY</p>
+      <p>Supply and sale of goods on credit by MPS Limited (referred further as “Supplier”) on behalf of the Publisher is subject to the following terms and conditions</p>
+      <p>1. DEFINITIONS</p>
+      <p>1.1 “Publisher” means any publishing organization/company for which the Supplier is handling the subscription management for their credit Customers </p>
+      <p>1.2 “Customer” means the person or organization to whom Products are sold by the Supplier on behalf of a Publisher and whose name and address are shown on
+        this document and requesting a credit account and /or purchasing a product on credit</p>
+      <p>1.3 “Price” means that amount quoted in the Publisher’s current price list or on Publisher’s website from time to time less any applicable discount plus any
+        applicable Value Added Tax or other taxes or duties or any appropriate despatch cost
+      </p>
+      <p>1.4 "Products" means any Publications which are being sold by the Supplier on behalf of the Publisher whether in print or delivered electronically including
+        CDs and other formats to the Customer</p>
+      <p>2. CONDITIONS </p>
+      <p>2.1 These Conditions shall apply to all contracts for the supply of Products and electronic publications provided by the Supplier on behalf of the Publisher
+        to the Customer. No terms or conditions endorsed on, delivered with or contained in the Customer's purchase order, confirmation of order, specification or
+        other document shall form part of the agreement unless previously agreed with the Publisher or Supplier</p>
+      <p>2.2 No order submitted to the Supplier shall be deemed to be accepted by the Supplier unless and until confirmed either in writing or as an electronic message
+        or by invoice submitted describing the goods being delivered</p>
+      <p>2.3 By submitting an order for any product the Customer acknowledges receipt of and agrees to be bound by these Terms.
+      </p>
+      <p>2.4 Any variation to these Conditions (including any special terms and conditions) shall be inapplicable unless agreed to in writing by the Supplier after
+        consultation with The Publisher.</p>
+      <p>3. PAYMENT</p>
+      <p>3.1. Standard Payment term for a Customer with credit accounts is 30 days from the date of invoice </p>
+      <p>3.2. The amount payable by the Customer will be as per the applicable Price </p>
+      <p>3.3. Customer’s orders that do not have an agreed credit account with the Publisher will only be accepted against the full amount paid in advance</p>
+      <p>3.4. Customer’s request for the extension of the credit period will not be accepted unless it is agreed between the Customer and Publisher in writing</p>
+      <p>3.5. Amount may not be withheld or delayed by the Customer for unauthorized returns or cancellation of a subscription or otherwise without written agreement
+        of the Publisher</p>
+      <p>3.6. In case of delayed payment, the Supplier reserves the right to charge interest on behalf of the Publisher on daily basis till the time the payment is
+        received from the Customer. The basis of interest will be at 3% per annum above the BNP Paribas (Supplier’s Bank) base rate from time to time, until the
+        payment is made in full</p>
+      <p>3.7. All costs incurred in recovering overdue debts including, but not limited to, legal expenses will be payable by the Customer</p>
+      <p>3.8. The Publisher may terminate the agreement and/or withhold further supplies in the event of amounts payable being overdue, breach of any of these Terms
+        and Conditions of supply or any other reason which at the discretion of the Publisher warrants such action</p>
+      <p>3.9. Payment is due in the currency as reflected in the invoice unless otherwise agreed between the Publisher and the Customer in writing </p>
+      <p>3.10. Credit Card payments are only accepted by the Supplier in accordance with the Publisher’s instructions</p>
+      <p>4. PRICE</p>
+      <p>4.1. Prices quoted for unavailable goods will be for information purpose only and are subject to change </p>
+      <p>4.2. Any discounts agreed by the Supplier on behalf of the Publisher shall be applicable only for the duration of the subscription period covered by the Customer’s
+        invoice
+      </p>
+      <p>4.4. In the case of trade Customers with credit accounts, payments for goods supplied must be received by the Supplier before the end of the month following
+        the month of invoice unless otherwise agreed in writing between the Publisher or an authorised agent and the Customer. Payment due date is stated on the
+        printed invoice. Supplier will levy an administrative charge of 3% above against the transaction value, for payments made by credit cards, by trade Customers
+        with credit accounts. Orders from trade Customers who do not have a credit account will only be accepted against prepayment in full</p>
+      <p>5. DUPLICATE PAYMENT</p>
+      <p>5.1 Supplier reserves the right to deduct an administration fee, to cover the costs incurred when refunding duplicate orders/payments
+      </p>
+      <p>6. WARRANTIES AND LIABILITY</p>
+
+
+    </div>
+    <div class="page-contant-right">
+      <p>6.3 Supplier shall not in any circumstances whatsoever or howsoever arising be liable for any indirect or consequential loss howsoever caused.</p>
+      <p>6.4. Supplier does not make or give any warranty, representation or undertaking as to the quality of the Goods , their correspondence with description or fitness
+        for purpose that the Goods are not defamatory, injurious, obscene, unlawful, or in breach of copyright in any other manner whatsoever</p>
+      <p>7. ACCEPTANCE OF GOODS</p>
+      <p>7.1. By accepting delivery of the Goods from the Supplier or Publisher, the Customer acknowledges receipt and thereby agrees to be bound by these terms and
+        conditions and further acknowledges that these terms and conditions comprise the only terms and conditions on which goods are supplied and that they shall
+        not, and shall not be deemed to be, altered or varied to any extent by any previous correspondence between the Publisher and the Customer or by provision
+        by the Customer to the Publisher or any other terms and conditions in respect of the Publisher’s goods.</p>
+      <p>7.2 The Customer shall be deemed to have accepted the Products immediately after delivery to the Customer at the address shown as the Despatch Address or upon
+        access of the electronic publication .</p>
+      <p>7.3 After acceptance of the Products, the Customer shall not be entitled to reject Goods without the prior written approval of the Publisher.</p>
+      <p>8. NO WAIVER</p>
+      <p>8.1 Failure by the Supplier to insist upon strict performance of any of the terms of these conditions shall not be deemed to be a waiver of the Supplier’s
+        rights and remedies in case of any subsequent failure by the Customer to observe any of the terms hereof</p>
+      <p>9. TITLE AND RISK</p>
+      <p>9.1. Title and property in any goods, including full legal and beneficial ownership, shall not pass to the Customer until the Supplier has received full payment
+        (in cash or cleared funds) </p>
+      <p>9.2 Risk in the Products shall pass to the Customer on despatch.</p>
+      <p>10. FORCE MAJEURE</p>
+      <p>10.1. No liability shall attach to the Supplier for loss or damage or delays in delivery or failure to supply the Products and/or Services arising from factors
+        outside its reasonable control, including, but not limited to, acts of God, acts or omissions of civil or military authority, war, fire, flood, natural disaster,
+        labour disputes, plant breakdown, shortage of supplies or compliance with orders lawfully given by any public authority.</p>
+      <p>11. Claim and Liability </p>
+      <p>11.1. The Supplier shall not be liable for failure in performing any of its obligations under the agreement if the failure was due to any cause beyond Supplier's
+        reasonable control. </p>
+      <p>11.2. Save as expressly provided in these terms and conditions all warranties, conditions or other terms implied by statute or common law are excluded to the
+        fullest extent permitted by law.</p>
+      <p>11.3. Without prejudice to the foregoing provisions of this clause claims for any damage to or shortages in Goods delivered must be notified to the Carrier
+        and the Publisher at the time of delivery (if the Goods are inspected by or on behalf of the Customer at the time of delivery) or, if the Goods are not so
+        inspected, immediately upon inspection after delivery and in both cases confirmed to the Carrier and the Company in writing within 5 days of delivery . Written
+        notice of claims for non-delivery must be given to the Supplier or Publisher within 14 days of the invoice date. On no account will claims be considered
+        if notified outside these periods</p>
+      <p>11.4. Subject to the foregoing provisions of this clause the Supplier or the Publisher will not in any circumstances be liable to the Customer or any successor
+        or assignee of the Customer in respect of any loss of whatsoever nature occurring to the Customer arising from the supply of Goods or from non -delivery,
+        delayed delivery, damage to or loss of the Goods owing to any act or omission by the Company (including negligence) or any cause not within the Supplier’s
+        or the Publisher’s control including (without limitation) fire, flood, accident, strike, riot, lock-out, trade dispute, industrial action, terrorism, nuclear
+        accident, war, insurrection, act or restraint of Government</p>
+      <p>11.5. The Customer shall notify the Supplier or the Publisher forthwith in writing of any claim for infringement of any patent, copyright, design, trade mark
+        or other industrial or intellectual property rights in the goods covered by this invoice of which the Customer becomes aware</p>
+      <p>11.6. No variation to these terms and conditions shall be binding unless agreed in writing between the Publisher and the Customer.</p>
+      <p>12. GENERAL</p>
+      <p>12.1 This contract is subject to the laws of England and Wales and the parties hereby submit to the non -exclusive jurisdiction of the English courts in relation
+        to any disputes which may arise out of or in connection with this contract.
+      </p>
+      <p>12.2 If any provision of these Terms is held for any reason to be ineffective or unenforceable in whole or in part this shall not affect the validity or enforceability
+        of the other provisions of these Terms.</p>
+      <p>12.3 No waiver by the Supplier of any breach of the agreement by the Customer will be treated as a waiver of any </p>
+
+    </div>
+  </div>
+
+
+  <div id="page-wrap-3">
+    <div id="header">
+      <div style="background:#ccc;border:1px solid #000;border-radius:5px;padding:20px;display: inline-block;">INVOICE
+        <br> Invoice No: {{searchModel?.invoiceNumber}}</div>
+      <img src="http://www.pharmpress.com/images/logo.png" style="float:left;left: 0;" class="logo" alt="Pharmaceutical Press" title="Pharmaceutical Press" width="250">
+    </div>
+    <div style="clear:both"></div>
+
+    <div id="customer">
+      <table id="metaHeading">
+        <tbody>
+
+          <tr>
+            <td class="meta-head">
+              <b>Invoice to Id:</b>
+            </td>
+            <td style="min-width:100px;"> {{singleDetails?.bill_to_customer_id}}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="customer-2">
+      <div class="center-class">
+        <h4 style="text-align:center;padding-top:10px;"> FOR PAYMENT </h4>
+      </div>
+      <div id="meta-2" style="font-size:12px;">
+        <p>
+          <b>TO PAY BY CHEQUE:</b>
+        </p>
+        <p>PAYABLE TO:
+          <b>ROYAL PHARMACEUTICAL SOCIETY OF G.B</b>
+        </p>
+        <p>PHARMACEUTICAL PRESS C/O MPS, MACMILLAN DISTRIBUTION LTD MDL),</p>
+        <p>CROMWELL PLACE, HAMPSHIRE INTERNATIONAL BUSINESS PARK,</p>
+        <p>LIME TREE WAY, BASINGSTOKE, HAMPSHIRE, RG24 8YJ</p>
+        <br>
+        <br>
+        <h3 style="padding-bottom:5px;"> TO PAY BY CREDIT CARD: </h3>
+
+        <div class="checkbox" style="float:left; padding-right: 20px;">
+          <input type="checkbox">
+          <span class=""> Master Card</span>
+        </div>
+        <div class="checkbox" style="float:left; padding-right: 20px;">
+          <input type="checkbox"> VISA </div>
+        <div class="checkbox" style="float:left; padding-right: 20px;">
+          <input type="checkbox"> AMEX </div>
+        <form action="" style="padding-top:35px;">
+          <input name="firstname" type="text" maxlength="16">
+        </form>
+        <br>
+        <br>
+      </div>
+      <div id="meta-2" style="float:right;">
+        <form action=" ">
+          Cheque No. &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text">
+        </form>
+        <form action=" " style="padding-top:10px;">
+          Cheque Date &nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text">
+        </form>
+        <form action=" " style="padding-top:10px;">
+          Amount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text">
+        </form>
+        <br>
+        <br>
+        <form action=" " style="padding-top:10px;">
+          Cardholder's Name &nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text" style="width:262px;">
+        </form>
+        <form action=" " style="padding-top:10px;">
+          Expiry Date &nbsp;&nbsp; &nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text">
+        </form>
+        <form action=" " style="padding-top:10px;">
+          Signature &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;
+          <input name="firstname" type="text">
+        </form>
+        <br>
+        <br>
+      </div>
+      <div id="meta-3" style="font-size:12px;">
+        <p>
+          <b>FOR ELECTRONIC FUNDS TRANSFER (EFT):</b>
+        </p>
+        <p>
+        </p>
+        <p style="padding-top:5px;">
+          <b>Bank Name:</b> NATIONAL WESTMINSTER</p>
+        <p style="padding-top:5px;">
+          <b>Account Name:</b> ROYAL PHARMACEUTICAL SOCIETY OF G.B</p>
+        <p style="padding-top:5px;">
+          <b>For Sterling :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <b> A/C number:</b> 46019960</p>
+        <p>
+        </p>
+        <p style="padding-top:5px;">
+          <b>For EUROS : </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <b> A/C number:</b> 550/00/48013684</p>
+        <p>
+        </p>
+        <p style="padding-top:5px;">
+          <b>For DOLLAR :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <b> A/C number:</b> 140/00/48013676</p>
+        <p>
+        </p>
+        <p style="padding-top:5px;">Email:
+          <a href="mailto:php@adi-mps.com">php@adi-mps.com</a>
+          <a> or </a>
+          <a href="mailto:subscriptions@rpharms.com">subscriptions@rpharms.com</a>
+          <a></a>
+        </p>
+        <a>
+        </a>
+      </div>
+      <a>
+
+        <div id="meta-3" style="font-size:12px;width:270px;text-align:center;">
+          <p style="">
+            <b>Branch </b>Lambeth North</p>
+          <p style="padding-top:5px;">
+            <b>Sort Code:</b> 60 60 04</p>
+          <p style="padding-top:5px;">
+            <b>IBAN Number:</b> GB 03 NWBK 6060 0446 0199 60 </p>
+          <p style="padding-top:5px;">
+            <b>IBAN Number:</b> GB 77 NWBK 6072 1448 0136 84 </p>
+          <p style="padding-top:5px;">
+            <b>IBAN Number:</b> GB 47 NWBK 6073 0148 0136 76 </p>
+        </div>
+
+        <div id="meta-3" style="font-size:12px;margin-left:10px;">
+          <p>
+            <b>Address - 91 Westminster Bridge Road, London SE17HW</b>
+          </p>
+          <p>
+          </p>
+          <p style="padding-top:23px;">
+            <b> Swift Code:</b> NWBKGB2L</p>
+          <p>
+          </p>
+          <p style="padding-top:5px;">
+            <b> Swift Code:</b> NWBKGB2L</p>
+          <p>
+          </p>
+          <p style="padding-top:5px;">
+            <b> Swift Code:</b> NWBKGB2L</p>
+          <p>
+          </p>
+        </div>
+        <div id="meta-4">
+          <p style="float:left; padding-right:80px;">Tel: +44 (0) 203 318 3141</p>
+          <p>Fax : +44 (0) 120 223 3874</p>
+        </div>
+      </a>
+      <div id="meta-4" style="font-size:10px;">
+        <a>
+        </a>
+        <p>
+          <a>** After making the payment, please send us an email with your payment details at </a>
+          <a href="mailto:php@adi-mps.com">
+            php@adi-mps.com</a> . This helps us in tracking your payments against your order</p>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,114 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs (onTabChange)="doOnTabChange()">
+    <my-tab tabTitle="Detail Circ.Excld Pack Report Search" tabId="detailsCirculationReport">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header [showInfoPopUp]="showInfoPopUp" headerCaption="Detail Circ.Excld Pack Report" [searchType]="getSearchType()"
+                [baseComponent]="mySelf"></app-think-search-header>
+              <form (change)="doOnFormChange()" class="form-horizontal" name="form" (ngSubmit)="f.form.valid" #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="cust_id">Order Date From
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <div class="col-sm-7">
+                          <app-cz-date-picker [dataInput]="detailsCircexcldPackModel"></app-cz-date-picker>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="productName">Product Name
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #productName name="productName" id="productName" [ddOptions]="ddOptionsproductName" [(ngModel)]="ngProduct">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label" for="volYear">Volume Year
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down name="volYear" id="volYear" #volYear [ddOptions]="ddOptionsexpyear" [(ngModel)]="ngVolYear">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="orderType">
+                          Order Type
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #orderType name="
+                                  orderType" id="orderType" [ddOptions]="ddOptionsOrderType" [ddTrigger]="ddTriggerOrderType"
+                            [(ngModel)]="ngOrderType">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="prCategory">Price Category
+                          <!-- <span class="mandatory"> </span> -->
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #prCategory name="prCategory" id="prCategory" [ddOptions]="ddOptionscategory" [(ngModel)]="ngPrCategory">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-4 control-label " for="revMethod">
+                          Revenue Method
+                        </label>
+                        <div class="col-sm-7">
+                          <app-data-drop-down #revMethod name="
+                            revMethod" id="revMethod" [ddOptions]="ddOptionsRevenueMethod" [ddTrigger]="ddTriggerRevenueMethod"
+                            [isDisabled]="isRevenueDisable" [(ngModel)]="ngRevMethod">
+                          </app-data-drop-down>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                  [baseComponent]="mySelf"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #detailsCirculationReportList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #detailsCirculationReportData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

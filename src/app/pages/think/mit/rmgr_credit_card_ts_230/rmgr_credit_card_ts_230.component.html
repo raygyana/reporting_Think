@@ -1,0 +1,122 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Daily Credit Cards by Journal Search" tabId="rmgrCreditCardTs">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="Daily Credit Cards by Journal" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <div class="panel-body">
+                <div class="row"> </div>
+                <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-sm-4 control-label" for="demo-hor-inputemail">Payment Date
+                            <span class="mandatory"> *</span>
+                          </label>
+                          <div class="col-8">
+                            <app-cz-date-picker [dataInput]="rmgrCreditCardTsModel" [singleDatePickerState]="true"></app-cz-date-picker>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="payment_type"> Payment/Card Type
+                            <!-- <span class="text-muted"> #</span> -->
+                          </label>
+                          <div class="col-8">
+                            <input type="text" name="PaymentType" placeholder="" id="payment_type" class="form-control" [(ngModel)]="rmgrCreditCardTsModel.payment_type"
+                              #payment_type="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                          <div class="col-8">
+                            <input type="number" placeholder="" id="cust_id" (keydown)="restrictNumeric($event)" name="Customer ID" class="form-control"
+                              [(ngModel)]="rmgrCreditCardTsModel.cust_id" #cust_id="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="name"> Name
+                            <!-- <span class="text-muted"> #</span> -->
+                          </label>
+                          <div class="col-8">
+                            <input type="text" name="Name" placeholder="" id="name" class="form-control" [(ngModel)]="rmgrCreditCardTsModel.name" #name="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="order_id">Order ID </label>
+                          <div class="col-8">
+                            <input type="text" placeholder="" id="order_id" name="Order ID" class="form-control" [(ngModel)]="rmgrCreditCardTsModel.order_id"
+                              #order_id="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="order_code"> Order Code
+                            <!-- <span class="text-muted"> #</span> -->
+                          </label>
+                          <div class="col-8">
+                            <input type="text" name="OrderCode" placeholder="" id="order_code" class="form-control" [(ngModel)]="rmgrCreditCardTsModel.order_code"
+                              #order_code="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="last_four_digits">Last Four Digits </label>
+                          <div class="col-8">
+                            <input type="number" placeholder="" id="last_four_digits" (keydown)="restrictNumeric($event)" name="LastFourDigits" class="form-control"
+                              [(ngModel)]="rmgrCreditCardTsModel.last_four_digits" #last_four_digits="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+              <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                [baseComponent]="mySelf"></app-think-search-footer>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #rmgrCreditCardTsList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [SingleDate]="true" [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)"
+            #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #rmgrCreditCardTsData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

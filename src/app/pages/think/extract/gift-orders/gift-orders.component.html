@@ -1,0 +1,102 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Gift Orders Search" tabId="giftOrdersSearch">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--<div id="page-title"> 
+                  <h1 class="page-header">Submission Details</h1>
+                  
+                  </div>-->
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Gift Orders" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="start_date">Order Date
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-8">
+                                <app-cz-date-picker [dataInput]="giftOrdersModel">
+                                </app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="productName">
+                                Product Name
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngProduct" #productName name="productName" id="productName" [ddOptions]="ddOptionsProduct">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="volYear">Volume Year
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngYear" #volYear name="volYear" id="volYear" [ddOptions]="ddOptionsYear">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="orderType">Order Type
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngOrderType" #orderType name="orderType" id="orderType" [ddOptions]="ddOptionsOrderType"
+                                  [ddTrigger]="ddTriggerOrderType">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                      [baseComponent]="mySelf"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+
+  <ng-template #giftOrdersList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

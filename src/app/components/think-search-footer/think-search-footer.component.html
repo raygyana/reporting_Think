@@ -1,0 +1,33 @@
+<div class="panel-footer">
+  <span class=" text-left">
+    <button [disabled]="form.invalid" class="btn btn-ltblue" type="button" (click)="onSave()">
+      <i class="fa fa-save"></i> Save Search
+    </button>
+    <label *ngIf="showLimit" class="ml-3">
+      <span class=" text-left">Records:</span>
+    </label>
+    <label class="col-sm-1 pl-1">
+      <span class=" text-left">
+        <input placeholder="" *ngIf="showLimit" #limit id="limit" name="limit" [(ngModel)]="searchModel.limit" class="form-control"
+          (keydown)="baseComponent.restrictNumeric($event)" min="1">
+      </span>
+    </label>
+  </span>
+
+  <span class=" pull-right">
+
+
+    <button class="btn btn-btnReset" (click)="doOnReset()" type="reset">
+      <i class="fa fa-refresh"></i> Reset
+    </button>
+
+
+    <button type="submit" (click)="doOnSubmit()" [disabled]="!form.valid" class="btn btn-dkblue">
+      <i class="fa fa-search"></i>Search</button>
+
+    <button *ngIf="extraButton" type="search" [disabled]="!form.valid" (click)="onextraSearch()" class="btn btn-dkblue">
+      <i class="fa fa-search"></i>{{extraButton}}</button>
+  </span>
+</div>
+<app-modals (onModalSubmit)="doOnSaveSearch($event)" [mmOptions]="mmOptionsSaveSearch">
+  <app-modals>

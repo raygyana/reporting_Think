@@ -1,0 +1,92 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Customer Deposit Cash Report Search" tabId="custSeach">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--<div id="page-title"> 
+                  <h1 class="page-header">Submission Details</h1>
+                  
+                  </div>-->
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Customer Deposit Cash Report" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="end_date">Creation Date Range
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-8">
+                                <app-cz-date-picker [singleDatePickerState]="true" [dataInput]="customerDepositSearchModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="dept_id">Customer Name
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Customer Name" placeholder="" id="cust_name" class="form-control" [(ngModel)]="customerDepositSearchModel.cust_name"
+                                  #cust_name="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                              <div class="col-8">
+                                <input autofocus type="number" placeholder="" id="cust_id" name="cust_id" class="form-control" (keydown)="restrictNumeric($event)"
+                                  min="1" [(ngModel)]="customerDepositSearchModel.cust_id" #cust_id="ngModel">
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)"
+                      (onReset)="doOnReset()"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #customerDepositsList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" [SingleDate]="true" (onSearchClick)="doOnSearchClick($event)"
+            #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

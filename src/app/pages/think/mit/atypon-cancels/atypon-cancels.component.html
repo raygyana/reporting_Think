@@ -1,0 +1,101 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Atypon Cancels Search" tabId="atyponCancelsSearch">
+
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Atypon Cancels" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+
+                      <div class="row"> </div>
+
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 control-label" for="demo-hor-inputemail">Cancel Date Range
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-sm-8">
+                                <app-cz-date-picker [dataInput]="atyponCancelsModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-5 col-form-label text-right" for="customerId">Customer ID
+                                <!-- <span class="mandatory"> *</span> -->
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="input" name="customerId" placeholder="" id="customerId" class="form-control" [(ngModel)]="atyponCancelsModel.customerId" #customerId="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="region">Country
+                                <span class="text-muted"> </span>
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngCountryList" #countryList name="countryList" id="countryList" [ddOptions]="ddOptionsCountryList">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-sm-5 col-form-label text-right" for="issn">ISSN
+                                <!-- <span class="mandatory"> *</span> -->
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="input" name="issn" placeholder="" id="issn" class="form-control" [(ngModel)]="atyponCancelsModel.issn" #issn="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()" [baseComponent]="mySelf"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #atyponCancelsList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+
+
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #atyponCancelsData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

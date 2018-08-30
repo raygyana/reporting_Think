@@ -1,0 +1,33 @@
+<div class="row">
+  <div [class]="monthYearModel.showSingleDate ? 'col-sm-12' : 'col-sm-6'">
+    <div class="form-group row">
+      <label class="col-5">From:
+        <span class="mandatory" *ngIf="isrequired">*</span>
+      </label>
+      <div class="col-7">
+        <input [id]="firstID" [required]="isrequired" type="text" [(ngModel)]="monthYearOutputModel.fistDate" class="form-control form-control-1 input-sm from"
+          placeholder="CheckIn">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div *ngIf="!monthYearModel.showSingleDate" class="col-sm-6">
+    <div class="form-group row">
+      <label class="col-4">To:
+        <span class="mandatory" *ngIf="isrequired">*</span>
+      </label>
+      <div class="col-8">
+        <input [id]="secondID" type="text " [required]="isrequired" [(ngModel)]="monthYearOutputModel.secDate " class="form-control form-control-2
+        input-sm to " placeholder="CheckOut ">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- [id]="my-startDate"
+[id]="my-endDate" -->

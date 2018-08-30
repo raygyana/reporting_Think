@@ -1,0 +1,32 @@
+ .coverFullBody {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   width: 100%;
+   height: 100%;
+ }
+
+ .autoCompleteBlock {
+   margin: 0;
+   padding: 0;
+   overflow: auto !important;
+   background: #fdfdfd;
+   border: 1px solid #eee;
+   position: absolute;
+   z-index: 999999;
+   max-height: 200px;
+   width: 91%;
+ }
+
+ .autoCompleteBlock li {
+   margin-bottom: 5px;
+   padding: 5px 10px;
+   font-size: 14px;
+   line-height: 16px;
+   list-style-type: none;
+ }
+
+ .autoCompleteBlock li:hover {
+   background: #eee;
+ }

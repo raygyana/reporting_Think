@@ -1,0 +1,85 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Daily Credit Card REFUNDS Search" tabId="creditCardRefundsSearch">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="Daily Credit Card REFUNDS" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <div class="panel-body">
+                <div class="row"> </div>
+                <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-sm-4 control-label" for="demo-hor-inputemail">Payment Date Range
+                            <span class="mandatory"> *</span>
+                          </label>
+                          <div class="col-8">
+                            <app-cz-date-picker [dataInput]="creditCardRefundsModel"></app-cz-date-picker>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="last_four_digits">Last Four Digits </label>
+                          <div class="col-8">
+                            <input type="number" placeholder="" id="last_four_digits" (keydown)="restrictNumeric($event)" name="LastFourDigits" class="form-control"
+                              [(ngModel)]="creditCardRefundsModel.last_four_digits" #last_four_digits="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="cust_id">Customer ID </label>
+                          <div class="col-8">
+                            <input type="number" placeholder="" id="cust_id" (keydown)="restrictNumeric($event)" name="Customer ID" class="form-control"
+                              [(ngModel)]="creditCardRefundsModel.cust_id" #cust_id="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label text-right" for="name"> Name
+                            <!-- <span class="text-muted"> #</span> -->
+                          </label>
+                          <div class="col-8">
+                            <input type="text" name="Name" placeholder="" id="name" class="form-control" [(ngModel)]="creditCardRefundsModel.name" #name="ngModel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                [baseComponent]="mySelf"></app-think-search-footer>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #creditCardRefundsList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #creditCardRefundsData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

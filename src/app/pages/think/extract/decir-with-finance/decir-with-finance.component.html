@@ -1,0 +1,118 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="DECIR With Finance Search" tabId="decirWithFinanceSearch">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--<div id="page-title"> 
+                  <h1 class="page-header">Submission Details</h1>
+                  
+                  </div>-->
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="DECIR With Finance" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="start_date">Reconciliation Date
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-8">
+                                <app-cz-date-picker [dataInput]="decirWithFinanceModel">
+                                </app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="price_category">
+                                Price Category
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngCategory" #price_category name="price_category" id="price_category" [ddOptions]="ddOptionsCategory">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="productId">Product Name
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngCenter" #productId name="productId" id="productId" [ddOptions]="ddOptionsProduct">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="sale_reps">Sales Rep.
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngSaleReps" #sale_reps name="sale_reps" id="sale_reps" [ddOptions]="ddOptionsSaleReps">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="order_type">Order Type
+                              </label>
+                              <div class="col-8">
+                                <app-data-drop-down [(ngModel)]="ngOrders" #order_type name="order_type" id="order_type" [ddOptions]="ddOptionsOrderType"
+                                  [ddTrigger]="ddTriggerOrderType">
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="info-above-dt">
+                      &nbsp;
+                      <b>Note :</b> Please select date range from month Start to End
+                    </div>
+                    <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                      [baseComponent]="mySelf"></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+
+  <ng-template #decirWithFinanceList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

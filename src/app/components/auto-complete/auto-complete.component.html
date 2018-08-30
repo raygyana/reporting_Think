@@ -1,0 +1,30 @@
+<!-- <p>
+  auto-complete works!
+</p> -->
+
+
+<!-- <input type="text" name="" id="" (keyup)="onInputChange(myInput.value)" #myInput>
+
+<ul *ngFor="let data of autoCompleteData">
+  <li>{{data}}</li>
+</ul> -->
+
+
+<!-- <div *ngIf="showSearchResult" (click)="onFullBodyClick(myInput.value, $event)" class="coverFullBody">
+
+</div> -->
+
+<div>
+  <input class="form-control" (mouseleave)="registerFocusOut()" type="text" (focus)="onFocus(myInput.value)" [(ngModel)]="userFilter " #myInput (keyup)="onInputChange(myInput.value) "
+    [placeholder]="basicSetting.placeholder" pattern=".{3,}" required title="3 characters minimum">
+
+  <ul (mouseenter)="unregisterFocusOut()" (mouseleave)="registerFocusOut()" class="autoCompleteBlock" *ngIf="showSearchResult ">
+    <li (click)="onLiClick(user) " *ngFor="let user of autoCompleteData | filterArray : userFilter | async ">{{ user }}</li>
+
+    <!-- in case you want to show empty message -->
+    <!-- <li *ngIf="(users | filterBy: stringFilter).length===0 ">No matching elements</li> -->
+  </ul>
+  <div *ngIf="ownLoader">
+    <i style="font-size: 20px; color: blue" class="fa fa-spinner fa-pulse" id="loading-indicator"></i>
+  </div>
+</div>

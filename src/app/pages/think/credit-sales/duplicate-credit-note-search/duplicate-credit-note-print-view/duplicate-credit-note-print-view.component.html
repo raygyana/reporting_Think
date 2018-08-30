@@ -1,0 +1,159 @@
+<div id="duplicateCreditNote" style="display: none">
+
+
+  <ng-container *ngFor="let item of dataToShow">
+
+    <div id="page-wrap">
+      <div id="header">
+        <div style="background:#ccc;border:1px solid #000;border-radius:5px;padding:20px;display: inline-block;">CREDIT NOTE
+          <br> Credit Note No:{{searchModel?.creditNoteNo}} </div>
+        <img src="http://www.pharmpress.com/images/logo.png" style="float:left;left: 0;" class="logo" alt="Pharmaceutical Press"
+          title="Pharmaceutical Press" width="250">
+      </div>
+      <div style="clear:both"></div>
+      <div id="customer">
+        <table id="meta">
+          <tr>
+            <td class="meta-head">Invoice to Id:</td>
+            <td> {{singleDetails?.bill_to_customer_id}} </td>
+          </tr>
+          <tr>
+            <td class="meta-head">Contact Name:</td>
+            <td>{{singleDetails?.contact_name}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Contact No:</td>
+            <td> {{singleDetails?.phone}} </td>
+          </tr>
+        </table>
+        <table id="meta">
+          <tr>
+            <td class="meta-head">Invoice Date</td>
+            <td> {{singleDetails?.invoice_date | date:'dd-MMM-yyyy'}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Customer Id :</td>
+            <td>{{singleDetails?.customer_id}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Cust Order Ref:</td>
+            <td>{{singleDetails?.cust_order_ref}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">PHP Vat No. :</td>
+            <td>{{singleDetails?.vat_id}}</td>
+          </tr>
+        </table>
+
+
+        <table id="meta" class="mr-0">
+          <tr>
+            <td class="meta-head">Payment Term</td>
+            <td> {{singleDetails?.payment_term}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Invoice No.:</td>
+            <td>{{singleDetails?.sales_invoice_no}}</td>
+          </tr>
+          <tr>
+            <td class="meta-head">Cust VAT No.:</td>
+            <td>{{singleDetails?.tax_id_number}} </td>
+          </tr>
+        </table>
+      </div>
+      <div id="customer">
+        <div id="textarea" class="right">
+          <b>Delivery Address:</b>
+
+          <br> {{singleDetails?.delivery_address}}
+        </div>
+        <div class="centerarea">
+          <p>Is your address correct? Please advise us if any changes required.</p>
+
+        </div>
+
+        <div id="textarea">
+          <b>Invoice Address:</b>
+          <br> {{singleDetails?.invoice_address}}
+        </div>
+
+      </div>
+      <table id="items" style=" border-collapse: collapse;">
+
+        <tr class="noneclass">
+          <th style="border-right: 1px solid #000;">Product Code</th>
+          <th>Qty</th>
+          <th>ISSN</th>
+          <th style="width: 30%;">Title</th>
+          <th>Type</th>
+          <th>Sub Start Date</th>
+          <th>Sub End Date</th>
+          <th>Price</th>
+          <th>Discount</th>
+          <th>VAT</th>
+          <th>Value</th>
+
+        </tr>
+
+        <tr class="noTopNBottomBorder" *ngFor="let obj of item">
+          <td>{{obj?.product_code}}</td>
+          <td>{{obj?.quantity}}</td>
+          <td>{{obj?.issn}}</td>
+          <td style="white-space: normal;">{{obj?.title}}</td>
+          <td>{{obj?.type}}</td>
+          <td>{{obj?.sub_start_date | date:'dd-MMM-yyyy'}}</td>
+          <td>{{obj?.sub_end_date | date:'dd-MMM-yyyy'}}</td>
+          <td>{{obj?.price}}</td>
+          <td>{{obj?.discount}}</td>
+          <td>{{obj?.vat}}</td>
+          <td>{{obj?.value}}</td>
+        </tr>
+        <tr class="item-row">
+          <td colspan="7" style="text-align:right">
+            <b>Sub Total:</b>
+          </td>
+          <td>{{singleDetails?.sub_total_price}}</td>
+          <td>{{singleDetails?.sub_total_discount}}</td>
+          <td>{{singleDetails?.sub_total_vat}}</td>
+          <td> {{singleDetails?.sub_total_value}}</td>
+        </tr>
+
+
+
+
+      </table>
+      <div id="customer">
+
+        <div id="textarea" class="box-size">
+          <b>Special Instructions:</b>
+        </div>
+
+        <div style="float:right;width:40%;">
+          <div id="textarea" style="text-align:center;float:right">
+            <b>INVOICE TOTAL</b>
+          </div>
+
+          <div id="textarea" style="background-color:#fff;float:right;border:1px solid #cacaca;">
+            <p style="text-align: right;"> {{singleDetails?.sub_total_value}} </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="terms">
+        <p> {{singleDetails?.footer}}</p>
+        <p>
+          <b>Tel:</b> +44-(0)-203-318-3141
+          <b>Fax:</b> +44-(0)-120-223-3874
+          <b>Email:</b>
+          <a href="">php@adi-mps.com</a>
+        </p>
+        <p>Pharmaceutical Press is a trading division of The Royal Pharmaceutical Society of Great Britain</p>
+      </div>
+
+    </div>
+  </ng-container>
+
+</div>

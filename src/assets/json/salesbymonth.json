@@ -1,0 +1,5167 @@
+[{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,152.32"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "18,078.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,232.50"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,719.21"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,176.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,764.67"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,626.15"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,718.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,702.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,594.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,444.28"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,676.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,672.91"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,718.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,125.26"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 234
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 271.72
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,126.91"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,519.97"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,935.63"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,431.38"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 577.2
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 76.4
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 290.54
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,090.79"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,352.92"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,051.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,878.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 438.48
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 139.2
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 239.85
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,073.15"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,648.44"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,903.76"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,281.37"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,625.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 80.15
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 211.2
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 859.03
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 286.08
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 634.53
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,956.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "68,534.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,807.44"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "26,942.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,467.37"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 505.06
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 211.2
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 232.58
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,272.02"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "29,742.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,712.37"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,560.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "14,892.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "30,494.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,028.89"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 793.87
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 416.23
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,249.22"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 84.05
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 415
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,224.86"
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 148.18
+	},
+	{
+		"Year": 2017,
+		"Month": "January",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 297.6
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "17,340.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "21,090.51"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,660.06"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,537.09"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "62,593.27"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,143.50"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,150.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "39,554.51"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,234.56"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,900.73"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,028.00"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 693.11
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,752.49"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,559.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,150.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,646.19"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,235.89"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,136.05"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 65.01
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,320.83"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,696.07"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 214.2
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,134.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,290.27"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 741.12
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 462.06
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Disease Management (DIS)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 119.7
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,363.84"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,043.55"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 697.11
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,036.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 487.71
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,479.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 375.66
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,074.66"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,183.04"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,594.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,641.30"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,085.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,573.06"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,424.45"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,543.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 447.45
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,156.33"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,297.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 497.6
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,202.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 337.92
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,079.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 303.96
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 460.78
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "25,931.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,282.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "45,659.01"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,794.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "25,707.73"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,651.80"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,759.38"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 868.51
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,570.60"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "20,613.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 328.8
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "23,334.08"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,440.07"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 621.83
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 214.2
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,630.95"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,454.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,618.24"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,504.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "23,197.22"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 923.12
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,212.14"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 169.2
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,101.49"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 533.57
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,093.65"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,378.98"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,403.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,107.53"
+	},
+	{
+		"Year": 2017,
+		"Month": "February",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 170.95
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,094.78"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,080.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,741.82"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,304.02"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "71,200.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,197.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 144
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "29,042.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,255.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,997.19"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,801.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,722.24"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,291.81"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,664.25"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 144
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,739.73"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,255.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,177.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 159.56
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,233.79"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,318.53"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,079.00"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,120.70"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,432.80"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,501.05"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 314.5
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,446.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,490.96"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 791.14
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 605.9
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 159.6
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,170.24"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,224.18"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 329.48
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,845.97"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 90.02
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,549.79"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 793.14
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 609.65
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,389.33"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 120.29
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 139.2
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,199.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 898.96
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,083.77"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,828.14"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,558.03"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,514.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,394.92"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,412.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 930.6
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 869.99
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 329.48
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,550.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 493.21
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,788.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 446.29
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 857.47
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 203.16
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "23,329.83"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 326.4
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,05,711.13"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,002.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "35,522.86"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,011.06"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,350.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,232.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 358.14
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 456.2
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 358.56
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,572.44"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "27,960.80"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,644.03"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 488.05
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,851.05"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 314.5
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "19,688.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 694.2
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "26,458.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,192.92"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "39,681.70"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 821.23
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,705.51"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,979.58"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 836.76
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,759.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 115.38
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Other",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 998.28
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 440.74
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,620.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,079.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 311.82
+	},
+	{
+		"Year": 2017,
+		"Month": "March",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 474.23
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,538.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,562.98"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,151.65"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,767.99"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "30,642.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "14,027.95"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 45
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,473.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "41,318.42"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,207.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,025.58"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,080.83"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,237.60"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 45
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,283.15"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "42,288.25"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "43,166.80"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 309.18
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 795.17
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,716.79"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,689.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,995.98"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 170.28
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 520.04
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,846.69"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 537.88
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 105.6
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 771.52
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,225.45"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "28,211.58"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 197.94
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Disease Management (DIS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 151.8
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,825.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "21,413.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 563.48
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,003.33"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,468.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "40,657.96"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 753.08
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,586.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 601.2
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 291.07
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,639.62"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "37,316.85"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,320.63"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,366.19"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,119.42"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,220.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "31,078.03"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,297.46"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 723.78
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 601.62
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 563.52
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 525.44
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 914.12
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 600.96
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "32,334.87"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 990.17
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "25,623.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 102
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "74,318.37"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,07,421.23"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "25,668.74"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 505
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 601.2
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 563.52
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 281.6
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,791.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,770.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,765.33"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,984.93"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 601.2
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "18,938.25"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 91
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "40,018.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "87,683.25"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "29,946.85"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 726.94
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,365.20"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "18,984.13"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,423.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,829.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 73.06
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 721.44
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "26,288.81"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,251.77"
+	},
+	{
+		"Year": 2017,
+		"Month": "April",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 156.12
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,045.20"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,593.21"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 913.92
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,442.21"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 557.35
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,589.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "19,327.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,935.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "24,288.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,075.20"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "14,024.71"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,816.53"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 818.8
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,598.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,935.40"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,611.10"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,075.20"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,370.81"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 826.04
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 191.7
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,737.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,939.20"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,077.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,958.89"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,846.69"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 409.5
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,584.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,290.27"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,803.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 282.88
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 505.41
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Disease Management (DIS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 151.8
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,341.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "20,897.65"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 538.4
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,089.18"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,790.58"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "40,556.91"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,495.70"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,777.68"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 150
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 70.2
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 142.8
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,419.30"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "39,997.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 715.9
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,221.55"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,705.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,543.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,746.51"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 304.64
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,232.50"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,383.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 516.97
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 239.36
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 554.22
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 128.28
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,815.81"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 324.22
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 872.66
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "51,864.33"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "12,528.31"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "85,486.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,608.00"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "17,649.62"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,835.65"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,341.36"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 822.17
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 239.36
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,756.76"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,041.91"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 328.8
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "19,420.39"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,144.75"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 795.13
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 727.52
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 63.54
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "43,709.84"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "9,997.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "47,510.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,984.48"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "23,160.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,435.71"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 169.2
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,693.30"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 306.82
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,714.01"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 101.87
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,009.32"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "21,540.98"
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 518.07
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 156.12
+	},
+	{
+		"Year": 2017,
+		"Month": "May",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 144.32
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,610.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,197.46"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,130.98"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,888.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,446.11"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,928.60"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 225
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "21,336.34"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,082.04"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,141.86"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 899.27
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,593.13"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,730.26"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 225
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,681.58"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,082.04"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,949.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 614.7
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 213.37
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,323.84"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,574.21"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,332.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,573.94"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 132.3
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 592.53
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 453.18
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 725.88
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 591.88
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 199.58
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,094.37"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,450.42"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 300
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,524.01"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 424.84
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 802.46
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 414.66
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 146.16
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Green Guide (RPD)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 142.8
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,532.92"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,439.38"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 951.16
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,607.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,547.22"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 488.04
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,392.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,185.41"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 715.53
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 515.2
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 107.35
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 787.75
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 281.47
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "29,166.38"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 510
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "55,310.86"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "17,391.27"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "8,476.53"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,276.38"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Medicines Use reviews (MUR)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 132.3
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,887.69"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 107.35
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,465.02"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,441.28"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,679.71"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 391.15
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 341.81
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 548
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 132.3
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,890.70"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 455
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "29,500.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,063.65"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "15,570.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 518.99
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,993.82"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,417.74"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 288
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 492.19
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 407.64
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 797.26
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 77.44
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 224.98
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,482.62"
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 311.7
+	},
+	{
+		"Year": 2017,
+		"Month": "June",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 152.4
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "7,644.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,602.00"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "American Hospital Formulary Service DI(AHF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,954.04"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "BNF Formulary Complete",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "16,148.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,170.03"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,324.09"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,658.02"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,389.91"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,558.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary (BNF) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 613.32
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,170.03"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 135
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,294.84"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,094.12"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,468.18"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNC)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 658.69
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "British National Formulary for Children (BNFC) - Print",
+		"Subscription Category": "General",
+		"Order Category": "Print",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 86.68
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "11,136.79"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,832.64"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,078.26"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Clarke's Analysis of Drugs and Poisons (CLK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 664.84
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Dale and Appelbe (PLE)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 110
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,933.07"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Dietary Supplements (DTS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 213.47
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Disease Management (DIS)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 308.7
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 728.88
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Drug Administration via Enteral Feeding Tubes (EFT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,993.73"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Drugs in Pregnancy and Lactation (DPL)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,330.39"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "4,394.72"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,782.87"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Handbook on Injectable Drugs (HID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,840.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,044.35"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,119.50"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Herbal Medicines (HRB)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,870.56"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 616.24
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Injectable Drugs Guide (IDG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,182.00"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 425.59
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 507.06
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Kucer’s The Use of Antibiotics (KUC)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 563.49
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "13,710.61"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 306
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "18,322.04"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "6,957.70"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,665.62"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,622.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Martindale (MRT)",
+		"Subscription Category": "Organisation",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,306.11"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 690.11
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,337.57"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Paediatric Injectable Drugs (PID)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 961.5
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,049.16"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "3,761.69"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,799.45"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 805.5
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Pharmaceutical Excipients (PEX)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 367.95
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stedman's Medical Dictionary",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 308.7
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "5,353.29"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Community",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 273
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Corporate",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,622.88"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "10,891.55"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "18,903.43"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Drug Interactions (STK)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 487.63
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Academic",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,291.89"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Government",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "2,488.50"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": "1,588.10"
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Herbal Medicines Interactions (SHM)",
+		"Subscription Category": "Individual",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 189.5
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "Stockley's Interaction Alerts (STA)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 168.37
+	},
+	{
+		"Year": 2017,
+		"Month": "July",
+		"Journal": "The Orange Guide (ORG)",
+		"Subscription Category": "Health Care",
+		"Order Category": "Online",
+		"Base Ccurrency": "GBP",
+		"Base Amount": 507.55
+	}
+]

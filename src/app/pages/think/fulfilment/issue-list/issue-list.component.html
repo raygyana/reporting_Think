@@ -1,0 +1,101 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Issue List Search" tabId="issueSeach">
+      <div class="boxed">
+        <!--CONTENT CONTAINER-->
+        <!--===================================================-->
+        <div id="content-container">
+          <!--Page content start-->
+          <!--===================================================-->
+          <div id="page-content111">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel ">
+                  <app-think-search-header headerCaption="Issue List" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+                  <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" novalidate>
+                    <div class="panel-body">
+                      <div class="row"></div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="cust_id">Date Range
+                                <span class="mandatory"> *</span>
+                              </label>
+                              <div class="col-8">
+                                <app-cz-date-picker [dataInput]="issueSearchModel"></app-cz-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="issue_no">Issue No.
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="ISSUE_NO" placeholder="" id="issue_no" class="form-control" [(ngModel)]="issueSearchModel.issue_no"
+                                  #issue_no="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="prod_title">Product Title
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <!-- 
+                                <select class="form-control select-class" name="product" id="prod_title" multiple [(ngModel)]="issueSearchModel.prod_title" #prod_title="ngModel">
+                                  <option [value]="product.ocID" *ngFor="let product of productData">{{product.description}}</option>
+                                </select> -->
+
+                                <app-data-drop-down [(ngModel)]="ngProductName" name="productId" id="productId" #product [ddOptions]="ddOptionsProduct" ngDefaultControl>
+                                </app-data-drop-down>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group row">
+                              <label class="col-4 col-form-label text-right" for="vol">Volume
+                                <!-- <span class="text-muted"> #</span> -->
+                              </label>
+                              <div class="col-8">
+                                <input type="text" name="Volume" placeholder="" id="vol" class="form-control" [(ngModel)]="issueSearchModel.vol" #vol="ngModel">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                      [baseComponent]="mySelf" #dispSearch></app-think-search-footer>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #issueList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)"></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #issueListData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

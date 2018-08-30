@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<!-- <link rel="stylesheet" href="./assets/css/icon-style.css"> -->
+
+<style type="text/css">
+  @media screen and (min-width: 1100px) {
+    /* start of large tablet styles */
+    .loadingSpinner {
+      position: fixed;
+      left: 46%;
+      top: 25%;
+      z-index: 100;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    /* start of large tablet styles */
+    .loadingSpinner {
+      position: fixed;
+      left: 47%;
+      top: 25%;
+      z-index: 100;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .loadingSpinner {
+      position: fixed;
+      left: 45%;
+      top: 25%;
+      z-index: 100;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .loadingSpinner {
+      position: fixed;
+      left: 40%;
+      top: 25%;
+      z-index: 100;
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    /* start of phone styles */
+    .loadingSpinner {
+      position: fixed;
+      left: 35%;
+      top: 25%;
+      z-index: 100;
+    }
+  }
+
+</style>
+<link rel="" type="" href="">
+
+<script>
+  function loadSession() {
+    sessionObject = JSON.parse(localStorage.getItem('sessionObject'));
+    console.log(sessionObject.clientID, sessionObject);
+    return sessionObject;
+  }
+
+</script>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPSInsight :: Dashboard</title>
+  <base href="/">
+  <link rel="icon" type="image/x-icon" href="mps.ico">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+
+</head>
+
+<body class="pace-done">
+  <noscript>
+    <div>
+      <h3>Please Enable your javaScript!!
+        <br> Then reload!!
+      </h3>
+    </div>
+  </noscript>
+  <app-root>
+    <div class="loadingSpinner">
+      <i style="font-size: 60px;" class="fa fa-spinner fa-pulse" id="loading-indicator"></i>
+      <span class="sr-only">Loading...</span>
+    </div>
+  </app-root>
+</body>
+
+</html>
+<!--  -->

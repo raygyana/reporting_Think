@@ -1,0 +1,120 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Direct Customer Sales Search" tabId="directCustomerSales">
+
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="Direct Customer Sales" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+                  <div class="row"> </div>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-sm-4 control-label" for="demo-hor-inputemail">Order Date Range
+                            <span class="mandatory"> *</span>
+                          </label>
+                          <div class="col-sm-7">
+                            <app-cz-date-picker [dataInput]="directCustomerSalesModel"></app-cz-date-picker>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <label class="col-sm-4 control-label " for="demo-hor-inputemail">Product Name
+                            <!-- <span class="mandatory"> *</span> -->
+                          </label>
+                          <div class="col-sm-7">
+                            <!-- <select class="form-control select-class" name="product_name" id="product_name" multiple [(ngModel)]="directCustomerSalesModel.product_name"
+                              #product_name="ngModel">
+                              <option [value]="product.ocID" *ngFor="let product of productData">{{product.description}}</option>
+                            </select> -->
+                            <app-data-drop-down [(ngModel)]="ngNNumbers" #product_name name="product_name" id="product_name" [ddOptions]="ddOptionsproductName">
+                            </app-data-drop-down>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group row">
+                          <div class="col-sm-4">
+                            <span class=" pull-right">
+                              <label>Show # records: </label>
+                            </span>
+                          </div>
+                          <div class="col-sm-7">
+                            <span class=" text-left">
+                              <input placeholder="" #limit id="limit" name="limit" [(ngModel)]="directCustomerSalesModel.limit" class="form-control" (keydown)="restrictNumeric($event)"
+                                min="1" type="number">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+                <app-think-search-footer [baseComponent]="mySelf" [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)"
+                  (onReset)="doOnReset()"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </my-tab>
+  </my-tabs>
+
+  <ng-template #directCustomerSalesList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #directCustomerSalesData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- <div class="gridTable">
+              <div class="table-responsive">
+                <table class="row-border hover table-striped table-bordered">
+                  <tr>
+                    <th colSpan="2">&nbsp;</th>
+                    <th colSpan="{{subTypeLen+1}}" *ngFor="let objMonth of monthList">{{objMonth}}</th>
+                    <th>Total</th>
+                  </tr>
+                  <tr>
+                    <th colSpan="2">&nbsp;</th>
+                    <ng-container *ngFor="let i of monthLen">
+                      <th *ngFor="let objsubType of subTypeList">{{objsubType}}</th>
+                      <th>Total</th>
+                    </ng-container>
+                    <th>Total</th>
+                  </tr>
+                  <tr *ngFor="let objData of listData">
+                    <td>{{objData.ocDescription}}</td>
+                    <td>{{objData.region}}</td>
+                    <ng-container *ngFor="let i of monthLen">
+                      <td *ngFor="let objsubType of subTypeList"></td>
+                      <td>Total</td>
+                    </ng-container>
+                    <td>Total</td>
+                  </tr>               
+                </table>
+              </div>
+            </div> -->
+          <br style="clear: both">
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,166 @@
+<app-angular-loader name="{{ getLoaderName() }}" show="true"></app-angular-loader>
+<div class="col-md-12" id="tab-custom">
+  <my-tabs #staticTabs>
+    <my-tab tabTitle="Detailed Sales Search Summary " tabId="detailedSaleSearch">
+      <div id="page-content111">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel ">
+              <app-think-search-header headerCaption="Detailed Sales Search Summary" [searchType]="getSearchType()" [baseComponent]="mySelf"></app-think-search-header>
+              <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid " #f="ngForm" ngNativeValidate>
+                <div class="panel-body">
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="daterange">Date Range
+                          <span class="mandatory"> *</span>
+                        </label>
+                        <app-cz-date-picker [dataInput]="salesSummarySearchModel"></app-cz-date-picker>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="prodName">Product Name</label>
+                        <!-- <input type="text" class="form-control" id="prodName" name=" Product Name" [(ngModel)]="salesSummarySearchModel.prodName"
+                                #prodName="ngModel"> -->
+                        <app-data-drop-down [(ngModel)]="ngProductName" name="product" id="prodName" #prodName [ddOptions]="ddOptionsProduct" ngDefaultControl>
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="sub_type">Subscription Type</label>
+                        <app-data-drop-down [(ngModel)]="ngSubscriptionType" #subscriptionType name="subscriptionType" id="subscriptionType" [ddOptions]="ddOptionsSubType"
+                          [ddTrigger]="ddTriggerSubType">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="region">Region</label>
+                        <app-data-drop-down [(ngModel)]="ngRegion" #region name="region" id="region" [ddOptions]="ddOptionsReg" (onValueChange)="getCountryDropDownData($event)">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="country">Country</label>
+                        <app-data-drop-down [(ngModel)]="ngCountry" name="country" id="country" #country [ddOptions]="ddOptionsCountry" [ddTrigger]="ddTrigger"
+                          ngDefaultControl>
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="cust_type">Customer Type</label>
+                        <app-data-drop-down [(ngModel)]="ngCustomerType" #customerType name="customerType" id="customerType" [ddOptions]="ddOptionsCustomerType">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="agency_id">Agency ID/Name</label>
+                        <!-- <input type="text" class="form-control" id="agency_id" name="Agency ID/Name" [(ngModel)]="salesSummarySearchModel.agency_id" #agency_id="ngModel"> -->
+                        <app-data-drop-down [(ngModel)]="ngAgencyName" #agency_id name="agency_id" id="agency_id" [ddOptions]="ddOptionsagency">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="status">Status</label>
+                        <app-data-drop-down [(ngModel)]="ngStatus" #status name="status" id="status" [ddOptions]="ddOptionsStatus" [ddTrigger]="ddTriggerStatus">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="currency">Currency</label>
+                        <app-data-drop-down [(ngModel)]="ngCurrency" #currency name="currency" id="currency" [ddOptions]="ddOptionsCurr">
+                        </app-data-drop-down>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="order_Id">Order Id</label>
+                        <input type="text" class="form-control" id="order_Id" name="Order Id" [(ngModel)]="salesSummarySearchModel.order_id" #order_id="ngModel">
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="invoice_id">Invoice ID</label>
+                        <input type="text" class="form-control" id="invoice_id" name="invoice_id" [(ngModel)]="salesSummarySearchModel.invoice_id"
+                          #invoice_id="ngModel">
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="source_code">Source Code</label>
+                        <input type="text" class="form-control" id="source_code" name="Source Code" [(ngModel)]="salesSummarySearchModel.source_code"
+                          #source_code="ngModel">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" name="City" [(ngModel)]="salesSummarySearchModel.city" #city="ngModel">
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" name="Zip" [(ngModel)]="salesSummarySearchModel.zip" #zip="ngModel">
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" class="form-control" id="email" name="Email Address"
+                          [(ngModel)]="salesSummarySearchModel.email" #email="ngModel">
+                        <div [hidden]="email.valid || email.pristine" class="alert custAlert alert-danger">
+                          Enter valid email id
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <app-think-search-footer [form]="f" (onSubmit)="onSubmit($event)" (onSaveSearch)="onSaveSearch($event)" (onReset)="doOnReset()"
+                  [baseComponent]="mySelf"></app-think-search-footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </my-tab>
+  </my-tabs>
+  <ng-template #salesSummaryList>
+    <div class="col-md-12 nopadding">
+      <div class="panel ">
+        <app-think-list-header [headerName]="headerName" [tabsComponent]="tabsComponent"></app-think-list-header>
+        <div class="panel-body">
+          <app-think-list-display-search [displaySearchOptions]="displaySearchOptions" (onSearchClick)="doOnSearchClick($event)" #dispSearch></app-think-list-display-search>
+          <div class="gridTable">
+            <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" #salesSummaryData [class]="tableClass">
+              </table>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

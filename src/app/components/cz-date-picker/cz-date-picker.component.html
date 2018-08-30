@@ -1,0 +1,28 @@
+<!-- <input type="text"
+   value="{{ bsValue | date: dateFormat}} {{dateFormat}}"
+   bsDatepicker [(bsValue)]="bsValue">
+   <span style="display: inline-block">
+   <button class="btn l" (click)="dp.toggle()"><i class="fa fa-calendar"></i></button>
+   <bs-datepicker #dp [(bsValue)]="bsValue" style="display: block"></bs-datepicker>
+   </span> -->
+<!--===================================================-->
+<div #me class="input-group" daterangepicker name="daterangeInput" [options]="dateOptions" (selected)="selectedDate($event, dataInput)" (cancelDaterangepicker)="calendarCanceled($event)">
+  <span class="form-control uneditable-input" name="daterange">
+    {{ displayValue }}
+  </span>
+  <span class="input-group-btn">
+    <a type="button" class="btn btn-default">
+      <i class="fa fa-calendar"></i>
+    </a>
+  </span>
+</div>
+
+<!-- <my-date-range-picker name="mydaterange" [options]="myDateRangePickerOptions" [(ngModel)]="model" required></my-date-range-picker> -->
+
+
+<!--===================================================-->
+<!--===================================================-->
+<!--                         <input #dp type="text" name="daterange" daterangepicker [options]="dateOptions" class="form-control">
+   <button class="btn l" (click)="dp.showCalendar()"><i class="fa fa-calendar"></i></button>                   
+   -->
+<!--===================================================-->
